@@ -1,0 +1,814 @@
+[
+  {
+    "data": {
+      "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+    },
+    "predictions": [
+      {
+        "model_version": "rekognition_v1",
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 0.21654891315847635,
+              "y": 12.394256889820099,
+              "width": 99.46237802505493,
+              "height": 87.31740713119507,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Person"
+              ]
+            },
+            "score": 99.61547088623047
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 27.546611428260803,
+              "y": 34.10641252994537,
+              "width": 43.8822478055954,
+              "height": 8.713100850582123,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Glasses"
+              ]
+            },
+            "score": 98.70513916015625
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 0.21654891315847635,
+              "y": 12.394256889820099,
+              "width": 99.46237802505493,
+              "height": 87.31740713119507,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Adult"
+              ]
+            },
+            "score": 99.61547088623047
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 0.21654891315847635,
+              "y": 12.394256889820099,
+              "width": 99.46237802505493,
+              "height": 87.31740713119507,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Male"
+              ]
+            },
+            "score": 99.61547088623047
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 0.21654891315847635,
+              "y": 12.394256889820099,
+              "width": 99.46237802505493,
+              "height": 87.31740713119507,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Man"
+              ]
+            },
+            "score": 99.61547088623047
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg"
+    },
+    "predictions": [
+      {
+        "model_version": "rekognition_v1",
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 7.245518267154694,
+              "y": 1.1816979385912418,
+              "width": 85.05929112434387,
+              "height": 98.75327348709106,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Person"
+              ]
+            },
+            "score": 95.59848022460938
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 7.245518267154694,
+              "y": 1.1816979385912418,
+              "width": 85.05929112434387,
+              "height": 98.75327348709106,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Adult"
+              ]
+            },
+            "score": 95.59848022460938
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 7.245518267154694,
+              "y": 1.1816979385912418,
+              "width": 85.05929112434387,
+              "height": 98.75327348709106,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Female"
+              ]
+            },
+            "score": 95.59848022460938
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 7.245518267154694,
+              "y": 1.1816979385912418,
+              "width": 85.05929112434387,
+              "height": 98.75327348709106,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Woman"
+              ]
+            },
+            "score": 95.59848022460938
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 35.83013415336609,
+              "y": 66.17000699043274,
+              "width": 25.73145031929016,
+              "height": 19.418075680732727,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Necklace"
+              ]
+            },
+            "score": 83.61992645263672
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg"
+    },
+    "predictions": [
+      {
+        "model_version": "rekognition_v1",
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 23.64160418510437,
+              "y": 12.897008657455444,
+              "width": 57.91717767715454,
+              "height": 86.89048886299133,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Person"
+              ]
+            },
+            "score": 99.70819091796875
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 23.64160418510437,
+              "y": 12.897008657455444,
+              "width": 57.91717767715454,
+              "height": 86.89048886299133,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Adult"
+              ]
+            },
+            "score": 99.70819091796875
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 23.64160418510437,
+              "y": 12.897008657455444,
+              "width": 57.91717767715454,
+              "height": 86.89048886299133,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Male"
+              ]
+            },
+            "score": 99.70819091796875
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 23.64160418510437,
+              "y": 12.897008657455444,
+              "width": 57.91717767715454,
+              "height": 86.89048886299133,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Man"
+              ]
+            },
+            "score": 99.70819091796875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "https://images.pexels.com/photos/712521/pexels-photo-712521.jpeg"
+    },
+    "predictions": [
+      {
+        "model_version": "rekognition_v1",
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 21.853767335414886,
+              "y": 11.545074731111526,
+              "width": 43.90209913253784,
+              "height": 88.4515643119812,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Person"
+              ]
+            },
+            "score": 99.4613265991211
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 21.853767335414886,
+              "y": 11.545074731111526,
+              "width": 43.90209913253784,
+              "height": 88.4515643119812,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Adult"
+              ]
+            },
+            "score": 99.4613265991211
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 21.853767335414886,
+              "y": 11.545074731111526,
+              "width": 43.90209913253784,
+              "height": 88.4515643119812,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Female"
+              ]
+            },
+            "score": 99.4613265991211
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 21.853767335414886,
+              "y": 11.545074731111526,
+              "width": 43.90209913253784,
+              "height": 88.4515643119812,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Woman"
+              ]
+            },
+            "score": 99.4613265991211
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 21.851561963558197,
+              "y": 59.97939705848694,
+              "width": 38.16457986831665,
+              "height": 39.91989195346832,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Coat"
+              ]
+            },
+            "score": 95.82386779785156
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 47.804468870162964,
+              "y": 57.18070864677429,
+              "width": 15.470629930496216,
+              "height": 42.69806146621704,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Coat"
+              ]
+            },
+            "score": 65.01663970947266
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 68.42668056488037,
+              "y": 82.4514091014862,
+              "width": 8.068859577178955,
+              "height": 17.47070699930191,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Shoe"
+              ]
+            },
+            "score": 72.2291259765625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg"
+    },
+    "predictions": [
+      {
+        "model_version": "rekognition_v1",
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 1.8346112221479416,
+              "y": 0.07992172613739967,
+              "width": 92.92454123497009,
+              "height": 99.81905817985535,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Person"
+              ]
+            },
+            "score": 99.82875061035156
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 1.8346112221479416,
+              "y": 0.07992172613739967,
+              "width": 92.92454123497009,
+              "height": 99.81905817985535,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Adult"
+              ]
+            },
+            "score": 99.82875061035156
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 1.8346112221479416,
+              "y": 0.07992172613739967,
+              "width": 92.92454123497009,
+              "height": 99.81905817985535,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Male"
+              ]
+            },
+            "score": 99.82875061035156
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 1.8346112221479416,
+              "y": 0.07992172613739967,
+              "width": 92.92454123497009,
+              "height": 99.81905817985535,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Man"
+              ]
+            },
+            "score": 99.82875061035156
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg"
+    },
+    "predictions": [
+      {
+        "model_version": "rekognition_v1",
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 0.12349319877102971,
+              "y": 12.124878168106079,
+              "width": 99.43302273750305,
+              "height": 87.84672021865845,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Person"
+              ]
+            },
+            "score": 97.75577545166016
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 0.12349319877102971,
+              "y": 12.124878168106079,
+              "width": 99.43302273750305,
+              "height": 87.84672021865845,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Adult"
+              ]
+            },
+            "score": 97.75577545166016
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 0.12349319877102971,
+              "y": 12.124878168106079,
+              "width": 99.43302273750305,
+              "height": 87.84672021865845,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Male"
+              ]
+            },
+            "score": 97.75577545166016
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 0.12349319877102971,
+              "y": 12.124878168106079,
+              "width": 99.43302273750305,
+              "height": 87.84672021865845,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Man"
+              ]
+            },
+            "score": 97.75577545166016
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg"
+    },
+    "predictions": [
+      {
+        "model_version": "rekognition_v1",
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 37.39925920963287,
+              "y": 6.326553225517273,
+              "width": 37.57805526256561,
+              "height": 93.45048666000366,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Adult"
+              ]
+            },
+            "score": 98.88773345947266
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 37.39925920963287,
+              "y": 6.326553225517273,
+              "width": 37.57805526256561,
+              "height": 93.45048666000366,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Male"
+              ]
+            },
+            "score": 98.88773345947266
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 37.39925920963287,
+              "y": 6.326553225517273,
+              "width": 37.57805526256561,
+              "height": 93.45048666000366,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Man"
+              ]
+            },
+            "score": 98.88773345947266
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 37.39925920963287,
+              "y": 6.326553225517273,
+              "width": 37.57805526256561,
+              "height": 93.45048666000366,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Person"
+              ]
+            },
+            "score": 98.88773345947266
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 50.41831731796265,
+              "y": 25.780248641967773,
+              "width": 7.339197397232056,
+              "height": 26.92100703716278,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Necklace"
+              ]
+            },
+            "score": 91.75357055664062
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 68.28660368919373,
+              "y": 91.51419997215271,
+              "width": 5.149167776107788,
+              "height": 5.129026249051094,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Wristwatch"
+              ]
+            },
+            "score": 81.96806335449219
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg"
+    },
+    "predictions": [
+      {
+        "model_version": "rekognition_v1",
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 23.64160418510437,
+              "y": 12.897008657455444,
+              "width": 57.91717767715454,
+              "height": 86.89048886299133,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Person"
+              ]
+            },
+            "score": 99.70819091796875
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 23.64160418510437,
+              "y": 12.897008657455444,
+              "width": 57.91717767715454,
+              "height": 86.89048886299133,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Adult"
+              ]
+            },
+            "score": 99.70819091796875
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 23.64160418510437,
+              "y": 12.897008657455444,
+              "width": 57.91717767715454,
+              "height": 86.89048886299133,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Male"
+              ]
+            },
+            "score": 99.70819091796875
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 23.64160418510437,
+              "y": 12.897008657455444,
+              "width": 57.91717767715454,
+              "height": 86.89048886299133,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Man"
+              ]
+            },
+            "score": 99.70819091796875
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg"
+    },
+    "predictions": [
+      {
+        "model_version": "rekognition_v1",
+        "result": [
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 0.2891006413847208,
+              "y": 4.650726169347763,
+              "width": 99.38763380050659,
+              "height": 95.1031506061554,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Person"
+              ]
+            },
+            "score": 99.37236022949219
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 0.2891006413847208,
+              "y": 4.650726169347763,
+              "width": 99.38763380050659,
+              "height": 95.1031506061554,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Adult"
+              ]
+            },
+            "score": 99.37236022949219
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 0.2891006413847208,
+              "y": 4.650726169347763,
+              "width": 99.38763380050659,
+              "height": 95.1031506061554,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Female"
+              ]
+            },
+            "score": 99.37236022949219
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 0.2891006413847208,
+              "y": 4.650726169347763,
+              "width": 99.38763380050659,
+              "height": 95.1031506061554,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Woman"
+              ]
+            },
+            "score": 99.37236022949219
+          },
+          {
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 10.253176093101501,
+              "y": 24.861638247966766,
+              "width": 44.95937526226044,
+              "height": 11.37535572052002,
+              "rotation": 0,
+              "rectanglelabels": [
+                "Glasses"
+              ]
+            },
+            "score": 96.09371185302734
+          }
+        ]
+      }
+    ]
+  }
+]

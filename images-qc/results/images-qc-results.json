@@ -1,0 +1,440 @@
+[
+  {
+    "id": 109,
+    "annotations": [
+      {
+        "id": 20,
+        "completed_by": 1,
+        "result": [
+          {
+            "original_width": 3476,
+            "original_height": 5214,
+            "image_rotation": 0,
+            "value": {
+              "x": 0.21654891315847635,
+              "y": 12.394256889820099,
+              "width": 99.46237802505493,
+              "height": 87.31740713119507,
+              "rotation": 0,
+              "rectanglelabels": ["Person"]
+            },
+            "id": "Cv-_x4NaLq",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction"
+          },
+          {
+            "original_width": 3476,
+            "original_height": 5214,
+            "image_rotation": 0,
+            "value": {
+              "x": 27.546611428260803,
+              "y": 34.10641252994537,
+              "width": 43.8822478055954,
+              "height": 8.713100850582123,
+              "rotation": 0,
+              "rectanglelabels": ["Glasses"]
+            },
+            "id": "4njkCYesgG",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction"
+          },
+          {
+            "original_width": 3476,
+            "original_height": 5214,
+            "image_rotation": 0,
+            "value": {
+              "x": 0.21654891315847635,
+              "y": 12.394256889820099,
+              "width": 99.46237802505493,
+              "height": 87.31740713119507,
+              "rotation": 0,
+              "rectanglelabels": ["Adult"]
+            },
+            "id": "cycZ3XZFkf",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction"
+          },
+          {
+            "original_width": 3476,
+            "original_height": 5214,
+            "image_rotation": 0,
+            "value": {
+              "x": 0.21654891315847635,
+              "y": 12.394256889820099,
+              "width": 99.46237802505493,
+              "height": 87.31740713119507,
+              "rotation": 0,
+              "rectanglelabels": ["Male"]
+            },
+            "id": "2cm1jHX7mW",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction"
+          },
+          {
+            "original_width": 3476,
+            "original_height": 5214,
+            "image_rotation": 0,
+            "value": {
+              "x": 0.21654891315847635,
+              "y": 12.394256889820099,
+              "width": 99.46237802505493,
+              "height": 87.31740713119507,
+              "rotation": 0,
+              "rectanglelabels": ["Man"]
+            },
+            "id": "l5JOsWHqZc",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:08:11.586671Z",
+        "updated_at": "2025-11-06T06:08:11.586682Z",
+        "draft_created_at": "2025-11-06T06:01:47.196931Z",
+        "lead_time": 41.396,
+        "prediction": {
+          "id": 11,
+          "result": [
+            {
+              "from_name": "bbox",
+              "to_name": "image",
+              "type": "rectanglelabels",
+              "value": {
+                "x": 0.21654891315847635,
+                "y": 12.394256889820099,
+                "width": 99.46237802505493,
+                "height": 87.31740713119507,
+                "rotation": 0.0,
+                "rectanglelabels": ["Person"]
+              }
+            },
+            {
+              "from_name": "bbox",
+              "to_name": "image",
+              "type": "rectanglelabels",
+              "value": {
+                "x": 27.546611428260803,
+                "y": 34.10641252994537,
+                "width": 43.8822478055954,
+                "height": 8.713100850582123,
+                "rotation": 0.0,
+                "rectanglelabels": ["Glasses"]
+              }
+            },
+            {
+              "from_name": "bbox",
+              "to_name": "image",
+              "type": "rectanglelabels",
+              "value": {
+                "x": 0.21654891315847635,
+                "y": 12.394256889820099,
+                "width": 99.46237802505493,
+                "height": 87.31740713119507,
+                "rotation": 0.0,
+                "rectanglelabels": ["Adult"]
+              }
+            },
+            {
+              "from_name": "bbox",
+              "to_name": "image",
+              "type": "rectanglelabels",
+              "value": {
+                "x": 0.21654891315847635,
+                "y": 12.394256889820099,
+                "width": 99.46237802505493,
+                "height": 87.31740713119507,
+                "rotation": 0.0,
+                "rectanglelabels": ["Male"]
+              }
+            },
+            {
+              "from_name": "bbox",
+              "to_name": "image",
+              "type": "rectanglelabels",
+              "value": {
+                "x": 0.21654891315847635,
+                "y": 12.394256889820099,
+                "width": 99.46237802505493,
+                "height": 87.31740713119507,
+                "rotation": 0.0,
+                "rectanglelabels": ["Man"]
+              }
+            }
+          ],
+          "model_version": "rekognition_v1",
+          "created_ago": "6 minutes",
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2025-11-06T06:01:28.287267Z",
+          "updated_at": "2025-11-06T06:01:28.287278Z",
+          "model": null,
+          "model_run": null,
+          "task": 109,
+          "project": 3
+        },
+        "result_count": 5,
+        "unique_id": "8f00ed08-4ca6-4ae4-b98b-ba7a3faa935c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 109,
+        "project": 3,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "079f2c62-tasks.json",
+    "drafts": [],
+    "predictions": [11],
+    "data": {
+      "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+    },
+    "meta": {},
+    "created_at": "2025-11-06T06:01:28.283340Z",
+    "updated_at": "2025-11-06T06:08:11.638752Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 1,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 3,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 110,
+    "annotations": [
+      {
+        "id": 21,
+        "completed_by": 1,
+        "result": [
+          {
+            "original_width": 5760,
+            "original_height": 5075,
+            "image_rotation": 0,
+            "value": {
+              "x": 7.245518267154694,
+              "y": 1.1816979385912418,
+              "width": 85.05929112434387,
+              "height": 98.75327348709106,
+              "rotation": 0,
+              "rectanglelabels": ["Person"]
+            },
+            "id": "AN09FictUP",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction"
+          },
+          {
+            "original_width": 5760,
+            "original_height": 5075,
+            "image_rotation": 0,
+            "value": {
+              "x": 7.245518267154694,
+              "y": 1.1816979385912418,
+              "width": 85.05929112434387,
+              "height": 98.75327348709106,
+              "rotation": 0,
+              "rectanglelabels": ["Adult"]
+            },
+            "id": "col_0_0rDL",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction"
+          },
+          {
+            "original_width": 5760,
+            "original_height": 5075,
+            "image_rotation": 0,
+            "value": {
+              "x": 7.245518267154694,
+              "y": 1.1816979385912418,
+              "width": 85.05929112434387,
+              "height": 98.75327348709106,
+              "rotation": 0,
+              "rectanglelabels": ["Female"]
+            },
+            "id": "Q-CGpCsf9A",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction"
+          },
+          {
+            "original_width": 5760,
+            "original_height": 5075,
+            "image_rotation": 0,
+            "value": {
+              "x": 7.245518267154694,
+              "y": 1.1816979385912418,
+              "width": 85.05929112434387,
+              "height": 98.75327348709106,
+              "rotation": 0,
+              "rectanglelabels": ["Woman"]
+            },
+            "id": "DO8T9Aouao",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction"
+          },
+          {
+            "original_width": 5760,
+            "original_height": 5075,
+            "image_rotation": 0,
+            "value": {
+              "x": 35.83013415336609,
+              "y": 66.17000699043274,
+              "width": 25.73145031929016,
+              "height": 19.418075680732727,
+              "rotation": 0,
+              "rectanglelabels": ["Necklace"]
+            },
+            "id": "A9W54iwJlY",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T06:08:14.861498Z",
+        "updated_at": "2025-11-06T06:08:14.861507Z",
+        "draft_created_at": "2025-11-06T06:01:48.639872Z",
+        "lead_time": 4.082,
+        "prediction": {
+          "id": 12,
+          "result": [
+            {
+              "from_name": "bbox",
+              "to_name": "image",
+              "type": "rectanglelabels",
+              "value": {
+                "x": 7.245518267154694,
+                "y": 1.1816979385912418,
+                "width": 85.05929112434387,
+                "height": 98.75327348709106,
+                "rotation": 0.0,
+                "rectanglelabels": ["Person"]
+              }
+            },
+            {
+              "from_name": "bbox",
+              "to_name": "image",
+              "type": "rectanglelabels",
+              "value": {
+                "x": 7.245518267154694,
+                "y": 1.1816979385912418,
+                "width": 85.05929112434387,
+                "height": 98.75327348709106,
+                "rotation": 0.0,
+                "rectanglelabels": ["Adult"]
+              }
+            },
+            {
+              "from_name": "bbox",
+              "to_name": "image",
+              "type": "rectanglelabels",
+              "value": {
+                "x": 7.245518267154694,
+                "y": 1.1816979385912418,
+                "width": 85.05929112434387,
+                "height": 98.75327348709106,
+                "rotation": 0.0,
+                "rectanglelabels": ["Female"]
+              }
+            },
+            {
+              "from_name": "bbox",
+              "to_name": "image",
+              "type": "rectanglelabels",
+              "value": {
+                "x": 7.245518267154694,
+                "y": 1.1816979385912418,
+                "width": 85.05929112434387,
+                "height": 98.75327348709106,
+                "rotation": 0.0,
+                "rectanglelabels": ["Woman"]
+              }
+            },
+            {
+              "from_name": "bbox",
+              "to_name": "image",
+              "type": "rectanglelabels",
+              "value": {
+                "x": 35.83013415336609,
+                "y": 66.17000699043274,
+                "width": 25.73145031929016,
+                "height": 19.418075680732727,
+                "rotation": 0.0,
+                "rectanglelabels": ["Necklace"]
+              }
+            }
+          ],
+          "model_version": "rekognition_v1",
+          "created_ago": "6 minutes",
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2025-11-06T06:01:28.287314Z",
+          "updated_at": "2025-11-06T06:01:28.287318Z",
+          "model": null,
+          "model_run": null,
+          "task": 110,
+          "project": 3
+        },
+        "result_count": 5,
+        "unique_id": "a1227d8b-e611-4916-92cf-cbb1908e68be",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 110,
+        "project": 3,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "079f2c62-tasks.json",
+    "drafts": [],
+    "predictions": [12],
+    "data": {
+      "image": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg"
+    },
+    "meta": {},
+    "created_at": "2025-11-06T06:01:28.283375Z",
+    "updated_at": "2025-11-06T06:08:14.900510Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 1,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 3,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

@@ -1,0 +1,4318 @@
+[
+  {
+    "data": {
+      "audio": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/LJ001-0001.wav"
+    },
+    "predictions": [
+      {
+        "model_version": "assemblyai-v2",
+        "result": [
+          {
+            "id": "cb561137781c47deb3d5a3d2e428fba9",
+            "from_name": "speaker",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.16,
+              "end": 9.44,
+              "labels": ["A"],
+              "channel": 0
+            },
+            "score": 0.9977937
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Printing, in the only sense with which we are at present concerned, differs from most, if not from all the arts and crafts represented in the exhibition."
+              ],
+              "start": 0.16,
+              "end": 9.44,
+              "channel": 0,
+              "region_id": "cb561137781c47deb3d5a3d2e428fba9"
+            },
+            "score": 0.9977937
+          },
+          {
+            "from_name": "sentiment",
+            "to_name": "audio",
+            "type": "choices",
+            "value": {
+              "choices": ["NEUTRAL"],
+              "start": 0.16,
+              "end": 9.44,
+              "channel": 0,
+              "region_id": "cb561137781c47deb3d5a3d2e428fba9"
+            },
+            "score": 0.758464
+          }
+        ],
+        "score": 0.9977937,
+        "extra_metadata": {
+          "confidence": 0.9977937,
+          "audio_duration": 10,
+          "chapters": [
+            {
+              "summary": "Printing, in the only sense with which we are at present concerned, differs from most, if not from all the arts and crafts represented in the exhibition.",
+              "headline": "Printing in the only sense with which we are at present concerned",
+              "gist": "Printing at the Exhibition",
+              "start": 160,
+              "end": 9440
+            }
+          ],
+          "highlights": {
+            "status": "success",
+            "results": [
+              {
+                "count": 1,
+                "rank": 0.15,
+                "text": "crafts",
+                "timestamps": [
+                  {
+                    "start": 7280,
+                    "end": 7760
+                  }
+                ]
+              },
+              {
+                "count": 1,
+                "rank": 0.11,
+                "text": "only sense",
+                "timestamps": [
+                  {
+                    "start": 1160,
+                    "end": 1920
+                  }
+                ]
+              },
+              {
+                "count": 1,
+                "rank": 0.06,
+                "text": "exhibition",
+                "timestamps": [
+                  {
+                    "start": 8840,
+                    "end": 9440
+                  }
+                ]
+              },
+              {
+                "count": 1,
+                "rank": 0.06,
+                "text": "Printing",
+                "timestamps": [
+                  {
+                    "start": 160,
+                    "end": 640
+                  }
+                ]
+              },
+              {
+                "count": 1,
+                "rank": 0.06,
+                "text": "all the arts",
+                "timestamps": [
+                  {
+                    "start": 6360,
+                    "end": 7120
+                  }
+                ]
+              }
+            ]
+          },
+          "sentiment_analysis": [
+            {
+              "sentiment": "NEUTRAL",
+              "speaker": "A",
+              "text": "Printing, in the only sense with which we are at present concerned, differs from most, if not from all the arts and crafts represented in the exhibition.",
+              "start": 160,
+              "end": 9440,
+              "confidence": 0.758464
+            }
+          ],
+          "iab_categories": {
+            "status": "success",
+            "results": [
+              {
+                "text": "Printing, in the only sense with which we are at present concerned, differs from most, if not from all the arts and crafts represented in the exhibition.",
+                "labels": [
+                  {
+                    "relevance": 0.8516797,
+                    "label": "FineArt>Design"
+                  },
+                  {
+                    "relevance": 0.76163995,
+                    "label": "FineArt>DigitalArts"
+                  },
+                  {
+                    "relevance": 0.62300515,
+                    "label": "Hobbies&Interests>ArtsAndCrafts"
+                  },
+                  {
+                    "relevance": 0.5586145,
+                    "label": "FineArt"
+                  },
+                  {
+                    "relevance": 0.5024406,
+                    "label": "BooksAndLiterature>ArtAndPhotographyBooks"
+                  },
+                  {
+                    "relevance": 0.26490843,
+                    "label": "Hobbies&Interests>ArtsAndCrafts>DrawingAndSketching"
+                  },
+                  {
+                    "relevance": 0.16655774,
+                    "label": "Hobbies&Interests>ArtsAndCrafts>Needlework"
+                  },
+                  {
+                    "relevance": 0.15361749,
+                    "label": "Technology&Computing>Computing>ComputerSoftwareAndApplications>DesktopPublishing"
+                  },
+                  {
+                    "relevance": 0.10291139,
+                    "label": "Hobbies&Interests>ArtsAndCrafts>Scrapbooking"
+                  },
+                  {
+                    "relevance": 0.029896457,
+                    "label": "FineArt>FineArtPhotography"
+                  }
+                ],
+                "timestamp": {
+                  "start": 160,
+                  "end": 9440
+                },
+                "sentences_idx_start": 0,
+                "sentences_idx_end": 0
+              }
+            ],
+            "summary": {
+              "Style&Fashion>BodyArt": 0.03423286,
+              "Hobbies&Interests>ArtsAndCrafts": 0.7315017,
+              "Hobbies&Interests>ArtsAndCrafts>DrawingAndSketching": 0.31104234,
+              "FineArt": 0.6558974,
+              "Hobbies&Interests>ArtsAndCrafts>Needlework": 0.19556384,
+              "BusinessAndFinance>Industries>PublishingIndustry": 0.0062331194,
+              "Hobbies&Interests>ArtsAndCrafts>Scrapbooking": 0.12083344,
+              "Technology&Computing": 0.0041148243,
+              "Hobbies&Interests>Collecting": 0.0028589463,
+              "Hobbies&Interests>ArtsAndCrafts>Photography": 0.0056782165,
+              "FineArt>ModernArt": 0.009170709,
+              "Technology&Computing>Computing>ComputerSoftwareAndApplications>DesktopPublishing": 0.18037003,
+              "BooksAndLiterature>ArtAndPhotographyBooks": 0.5899408,
+              "BooksAndLiterature>ComicsAndGraphicNovels": 0.0046688444,
+              "FineArt>FineArtPhotography": 0.035102934,
+              "Hobbies&Interests": 0.004328989,
+              "Technology&Computing>Computing>ComputerSoftwareAndApplications>PhotoEditingSoftware": 0.0030061095,
+              "RealEstate>IndustrialProperty": 0.0029714543,
+              "FineArt>Design": 1.0,
+              "FineArt>DigitalArts": 0.89427984
+            }
+          },
+          "utterances": [
+            {
+              "speaker": "A",
+              "text": "Printing, in the only sense with which we are at present concerned, differs from most, if not from all the arts and crafts represented in the exhibition.",
+              "confidence": 0.9977937,
+              "start": 160,
+              "end": 9440,
+              "words": [
+                {
+                  "text": "Printing,",
+                  "start": 160,
+                  "end": 640,
+                  "confidence": 0.992513,
+                  "speaker": "A"
+                },
+                {
+                  "text": "in",
+                  "start": 720,
+                  "end": 1000,
+                  "confidence": 0.9980469,
+                  "speaker": "A"
+                },
+                {
+                  "text": "the",
+                  "start": 1000,
+                  "end": 1160,
+                  "confidence": 0.9995117,
+                  "speaker": "A"
+                },
+                {
+                  "text": "only",
+                  "start": 1160,
+                  "end": 1440,
+                  "confidence": 0.99658203,
+                  "speaker": "A"
+                },
+                {
+                  "text": "sense",
+                  "start": 1520,
+                  "end": 1920,
+                  "confidence": 0.99975586,
+                  "speaker": "A"
+                },
+                {
+                  "text": "with",
+                  "start": 1920,
+                  "end": 2120,
+                  "confidence": 0.99609375,
+                  "speaker": "A"
+                },
+                {
+                  "text": "which",
+                  "start": 2120,
+                  "end": 2320,
+                  "confidence": 0.9995117,
+                  "speaker": "A"
+                },
+                {
+                  "text": "we",
+                  "start": 2320,
+                  "end": 2520,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "are",
+                  "start": 2520,
+                  "end": 2720,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "at",
+                  "start": 2720,
+                  "end": 2920,
+                  "confidence": 0.9995117,
+                  "speaker": "A"
+                },
+                {
+                  "text": "present",
+                  "start": 2920,
+                  "end": 3200,
+                  "confidence": 0.9995117,
+                  "speaker": "A"
+                },
+                {
+                  "text": "concerned,",
+                  "start": 3280,
+                  "end": 4080,
+                  "confidence": 0.99975586,
+                  "speaker": "A"
+                },
+                {
+                  "text": "differs",
+                  "start": 4320,
+                  "end": 5000,
+                  "confidence": 0.9995117,
+                  "speaker": "A"
+                },
+                {
+                  "text": "from",
+                  "start": 5000,
+                  "end": 5280,
+                  "confidence": 0.99560547,
+                  "speaker": "A"
+                },
+                {
+                  "text": "most,",
+                  "start": 5280,
+                  "end": 5560,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "if",
+                  "start": 5560,
+                  "end": 5840,
+                  "confidence": 0.9995117,
+                  "speaker": "A"
+                },
+                {
+                  "text": "not",
+                  "start": 5840,
+                  "end": 6120,
+                  "confidence": 1.0,
+                  "speaker": "A"
+                },
+                {
+                  "text": "from",
+                  "start": 6120,
+                  "end": 6360,
+                  "confidence": 0.9921875,
+                  "speaker": "A"
+                },
+                {
+                  "text": "all",
+                  "start": 6360,
+                  "end": 6560,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "the",
+                  "start": 6560,
+                  "end": 6760,
+                  "confidence": 0.9970703,
+                  "speaker": "A"
+                },
+                {
+                  "text": "arts",
+                  "start": 6760,
+                  "end": 7120,
+                  "confidence": 0.9995117,
+                  "speaker": "A"
+                },
+                {
+                  "text": "and",
+                  "start": 7120,
+                  "end": 7280,
+                  "confidence": 0.9980469,
+                  "speaker": "A"
+                },
+                {
+                  "text": "crafts",
+                  "start": 7280,
+                  "end": 7760,
+                  "confidence": 0.9996745,
+                  "speaker": "A"
+                },
+                {
+                  "text": "represented",
+                  "start": 7760,
+                  "end": 8480,
+                  "confidence": 0.9855957,
+                  "speaker": "A"
+                },
+                {
+                  "text": "in",
+                  "start": 8480,
+                  "end": 8680,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "the",
+                  "start": 8680,
+                  "end": 8840,
+                  "confidence": 0.99853516,
+                  "speaker": "A"
+                },
+                {
+                  "text": "exhibition.",
+                  "start": 8840,
+                  "end": 9440,
+                  "confidence": 0.9992676,
+                  "speaker": "A"
+                }
+              ]
+            }
+          ]
+        },
+        "audio_url": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/LJ001-0001.wav"
+      }
+    ],
+    "assemblyai_raw": {
+      "id": "7c7e17c7-3ac4-46dd-a991-8c1486a9357e",
+      "language_model": "assemblyai_default",
+      "acoustic_model": "assemblyai_default",
+      "language_code": "en_us",
+      "speech_understanding": null,
+      "translated_texts": null,
+      "status": "completed",
+      "audio_url": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/LJ001-0001.wav",
+      "text": "Printing, in the only sense with which we are at present concerned, differs from most, if not from all the arts and crafts represented in the exhibition.",
+      "words": [
+        {
+          "text": "Printing,",
+          "start": 160,
+          "end": 640,
+          "confidence": 0.992513,
+          "speaker": "A"
+        },
+        {
+          "text": "in",
+          "start": 720,
+          "end": 1000,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 1000,
+          "end": 1160,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "only",
+          "start": 1160,
+          "end": 1440,
+          "confidence": 0.99658203,
+          "speaker": "A"
+        },
+        {
+          "text": "sense",
+          "start": 1520,
+          "end": 1920,
+          "confidence": 0.99975586,
+          "speaker": "A"
+        },
+        {
+          "text": "with",
+          "start": 1920,
+          "end": 2120,
+          "confidence": 0.99609375,
+          "speaker": "A"
+        },
+        {
+          "text": "which",
+          "start": 2120,
+          "end": 2320,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "we",
+          "start": 2320,
+          "end": 2520,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "are",
+          "start": 2520,
+          "end": 2720,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "at",
+          "start": 2720,
+          "end": 2920,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "present",
+          "start": 2920,
+          "end": 3200,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "concerned,",
+          "start": 3280,
+          "end": 4080,
+          "confidence": 0.99975586,
+          "speaker": "A"
+        },
+        {
+          "text": "differs",
+          "start": 4320,
+          "end": 5000,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "from",
+          "start": 5000,
+          "end": 5280,
+          "confidence": 0.99560547,
+          "speaker": "A"
+        },
+        {
+          "text": "most,",
+          "start": 5280,
+          "end": 5560,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "if",
+          "start": 5560,
+          "end": 5840,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "not",
+          "start": 5840,
+          "end": 6120,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "from",
+          "start": 6120,
+          "end": 6360,
+          "confidence": 0.9921875,
+          "speaker": "A"
+        },
+        {
+          "text": "all",
+          "start": 6360,
+          "end": 6560,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 6560,
+          "end": 6760,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "arts",
+          "start": 6760,
+          "end": 7120,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "and",
+          "start": 7120,
+          "end": 7280,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "crafts",
+          "start": 7280,
+          "end": 7760,
+          "confidence": 0.9996745,
+          "speaker": "A"
+        },
+        {
+          "text": "represented",
+          "start": 7760,
+          "end": 8480,
+          "confidence": 0.9855957,
+          "speaker": "A"
+        },
+        {
+          "text": "in",
+          "start": 8480,
+          "end": 8680,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 8680,
+          "end": 8840,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "exhibition.",
+          "start": 8840,
+          "end": 9440,
+          "confidence": 0.9992676,
+          "speaker": "A"
+        }
+      ],
+      "utterances": [
+        {
+          "speaker": "A",
+          "text": "Printing, in the only sense with which we are at present concerned, differs from most, if not from all the arts and crafts represented in the exhibition.",
+          "confidence": 0.9977937,
+          "start": 160,
+          "end": 9440,
+          "words": [
+            {
+              "text": "Printing,",
+              "start": 160,
+              "end": 640,
+              "confidence": 0.992513,
+              "speaker": "A"
+            },
+            {
+              "text": "in",
+              "start": 720,
+              "end": 1000,
+              "confidence": 0.9980469,
+              "speaker": "A"
+            },
+            {
+              "text": "the",
+              "start": 1000,
+              "end": 1160,
+              "confidence": 0.9995117,
+              "speaker": "A"
+            },
+            {
+              "text": "only",
+              "start": 1160,
+              "end": 1440,
+              "confidence": 0.99658203,
+              "speaker": "A"
+            },
+            {
+              "text": "sense",
+              "start": 1520,
+              "end": 1920,
+              "confidence": 0.99975586,
+              "speaker": "A"
+            },
+            {
+              "text": "with",
+              "start": 1920,
+              "end": 2120,
+              "confidence": 0.99609375,
+              "speaker": "A"
+            },
+            {
+              "text": "which",
+              "start": 2120,
+              "end": 2320,
+              "confidence": 0.9995117,
+              "speaker": "A"
+            },
+            {
+              "text": "we",
+              "start": 2320,
+              "end": 2520,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "are",
+              "start": 2520,
+              "end": 2720,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "at",
+              "start": 2720,
+              "end": 2920,
+              "confidence": 0.9995117,
+              "speaker": "A"
+            },
+            {
+              "text": "present",
+              "start": 2920,
+              "end": 3200,
+              "confidence": 0.9995117,
+              "speaker": "A"
+            },
+            {
+              "text": "concerned,",
+              "start": 3280,
+              "end": 4080,
+              "confidence": 0.99975586,
+              "speaker": "A"
+            },
+            {
+              "text": "differs",
+              "start": 4320,
+              "end": 5000,
+              "confidence": 0.9995117,
+              "speaker": "A"
+            },
+            {
+              "text": "from",
+              "start": 5000,
+              "end": 5280,
+              "confidence": 0.99560547,
+              "speaker": "A"
+            },
+            {
+              "text": "most,",
+              "start": 5280,
+              "end": 5560,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "if",
+              "start": 5560,
+              "end": 5840,
+              "confidence": 0.9995117,
+              "speaker": "A"
+            },
+            {
+              "text": "not",
+              "start": 5840,
+              "end": 6120,
+              "confidence": 1.0,
+              "speaker": "A"
+            },
+            {
+              "text": "from",
+              "start": 6120,
+              "end": 6360,
+              "confidence": 0.9921875,
+              "speaker": "A"
+            },
+            {
+              "text": "all",
+              "start": 6360,
+              "end": 6560,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "the",
+              "start": 6560,
+              "end": 6760,
+              "confidence": 0.9970703,
+              "speaker": "A"
+            },
+            {
+              "text": "arts",
+              "start": 6760,
+              "end": 7120,
+              "confidence": 0.9995117,
+              "speaker": "A"
+            },
+            {
+              "text": "and",
+              "start": 7120,
+              "end": 7280,
+              "confidence": 0.9980469,
+              "speaker": "A"
+            },
+            {
+              "text": "crafts",
+              "start": 7280,
+              "end": 7760,
+              "confidence": 0.9996745,
+              "speaker": "A"
+            },
+            {
+              "text": "represented",
+              "start": 7760,
+              "end": 8480,
+              "confidence": 0.9855957,
+              "speaker": "A"
+            },
+            {
+              "text": "in",
+              "start": 8480,
+              "end": 8680,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "the",
+              "start": 8680,
+              "end": 8840,
+              "confidence": 0.99853516,
+              "speaker": "A"
+            },
+            {
+              "text": "exhibition.",
+              "start": 8840,
+              "end": 9440,
+              "confidence": 0.9992676,
+              "speaker": "A"
+            }
+          ]
+        }
+      ],
+      "confidence": 0.9977937,
+      "audio_duration": 10,
+      "punctuate": true,
+      "format_text": true,
+      "dual_channel": false,
+      "webhook_url": null,
+      "webhook_status_code": null,
+      "webhook_auth": false,
+      "webhook_auth_header_name": null,
+      "speed_boost": false,
+      "auto_highlights_result": {
+        "status": "success",
+        "results": [
+          {
+            "count": 1,
+            "rank": 0.15,
+            "text": "crafts",
+            "timestamps": [
+              {
+                "start": 7280,
+                "end": 7760
+              }
+            ]
+          },
+          {
+            "count": 1,
+            "rank": 0.11,
+            "text": "only sense",
+            "timestamps": [
+              {
+                "start": 1160,
+                "end": 1920
+              }
+            ]
+          },
+          {
+            "count": 1,
+            "rank": 0.06,
+            "text": "exhibition",
+            "timestamps": [
+              {
+                "start": 8840,
+                "end": 9440
+              }
+            ]
+          },
+          {
+            "count": 1,
+            "rank": 0.06,
+            "text": "Printing",
+            "timestamps": [
+              {
+                "start": 160,
+                "end": 640
+              }
+            ]
+          },
+          {
+            "count": 1,
+            "rank": 0.06,
+            "text": "all the arts",
+            "timestamps": [
+              {
+                "start": 6360,
+                "end": 7120
+              }
+            ]
+          }
+        ]
+      },
+      "auto_highlights": true,
+      "audio_start_from": null,
+      "audio_end_at": null,
+      "word_boost": [],
+      "boost_param": null,
+      "prompt": null,
+      "keyterms_prompt": [],
+      "filter_profanity": false,
+      "redact_pii": false,
+      "redact_pii_audio": false,
+      "redact_pii_audio_quality": null,
+      "redact_pii_audio_options": null,
+      "redact_pii_policies": null,
+      "redact_pii_sub": null,
+      "speaker_labels": true,
+      "speaker_options": null,
+      "content_safety": false,
+      "iab_categories": true,
+      "content_safety_labels": {
+        "status": "unavailable",
+        "results": [],
+        "summary": {}
+      },
+      "iab_categories_result": {
+        "status": "success",
+        "results": [
+          {
+            "text": "Printing, in the only sense with which we are at present concerned, differs from most, if not from all the arts and crafts represented in the exhibition.",
+            "labels": [
+              {
+                "relevance": 0.8516797,
+                "label": "FineArt>Design"
+              },
+              {
+                "relevance": 0.76163995,
+                "label": "FineArt>DigitalArts"
+              },
+              {
+                "relevance": 0.62300515,
+                "label": "Hobbies&Interests>ArtsAndCrafts"
+              },
+              {
+                "relevance": 0.5586145,
+                "label": "FineArt"
+              },
+              {
+                "relevance": 0.5024406,
+                "label": "BooksAndLiterature>ArtAndPhotographyBooks"
+              },
+              {
+                "relevance": 0.26490843,
+                "label": "Hobbies&Interests>ArtsAndCrafts>DrawingAndSketching"
+              },
+              {
+                "relevance": 0.16655774,
+                "label": "Hobbies&Interests>ArtsAndCrafts>Needlework"
+              },
+              {
+                "relevance": 0.15361749,
+                "label": "Technology&Computing>Computing>ComputerSoftwareAndApplications>DesktopPublishing"
+              },
+              {
+                "relevance": 0.10291139,
+                "label": "Hobbies&Interests>ArtsAndCrafts>Scrapbooking"
+              },
+              {
+                "relevance": 0.029896457,
+                "label": "FineArt>FineArtPhotography"
+              }
+            ],
+            "timestamp": {
+              "start": 160,
+              "end": 9440
+            },
+            "sentences_idx_start": 0,
+            "sentences_idx_end": 0
+          }
+        ],
+        "summary": {
+          "Style&Fashion>BodyArt": 0.03423286,
+          "Hobbies&Interests>ArtsAndCrafts": 0.7315017,
+          "Hobbies&Interests>ArtsAndCrafts>DrawingAndSketching": 0.31104234,
+          "FineArt": 0.6558974,
+          "Hobbies&Interests>ArtsAndCrafts>Needlework": 0.19556384,
+          "BusinessAndFinance>Industries>PublishingIndustry": 0.0062331194,
+          "Hobbies&Interests>ArtsAndCrafts>Scrapbooking": 0.12083344,
+          "Technology&Computing": 0.0041148243,
+          "Hobbies&Interests>Collecting": 0.0028589463,
+          "Hobbies&Interests>ArtsAndCrafts>Photography": 0.0056782165,
+          "FineArt>ModernArt": 0.009170709,
+          "Technology&Computing>Computing>ComputerSoftwareAndApplications>DesktopPublishing": 0.18037003,
+          "BooksAndLiterature>ArtAndPhotographyBooks": 0.5899408,
+          "BooksAndLiterature>ComicsAndGraphicNovels": 0.0046688444,
+          "FineArt>FineArtPhotography": 0.035102934,
+          "Hobbies&Interests": 0.004328989,
+          "Technology&Computing>Computing>ComputerSoftwareAndApplications>PhotoEditingSoftware": 0.0030061095,
+          "RealEstate>IndustrialProperty": 0.0029714543,
+          "FineArt>Design": 1.0,
+          "FineArt>DigitalArts": 0.89427984
+        }
+      },
+      "language_detection": false,
+      "language_detection_options": null,
+      "language_detection_results": null,
+      "language_confidence_threshold": null,
+      "language_confidence": null,
+      "custom_spelling": null,
+      "throttled": false,
+      "auto_chapters": true,
+      "summarization": false,
+      "summary_type": null,
+      "summary_model": null,
+      "custom_topics": false,
+      "topics": [],
+      "speech_threshold": null,
+      "speech_model": null,
+      "speech_models": ["universal"],
+      "speech_model_used": "universal",
+      "chapters": [
+        {
+          "summary": "Printing, in the only sense with which we are at present concerned, differs from most, if not from all the arts and crafts represented in the exhibition.",
+          "headline": "Printing in the only sense with which we are at present concerned",
+          "gist": "Printing at the Exhibition",
+          "start": 160,
+          "end": 9440
+        }
+      ],
+      "disfluencies": false,
+      "entity_detection": true,
+      "sentiment_analysis": true,
+      "sentiment_analysis_results": [
+        {
+          "sentiment": "NEUTRAL",
+          "speaker": "A",
+          "text": "Printing, in the only sense with which we are at present concerned, differs from most, if not from all the arts and crafts represented in the exhibition.",
+          "start": 160,
+          "end": 9440,
+          "confidence": 0.758464
+        }
+      ],
+      "entities": null,
+      "speakers_expected": null,
+      "summary": null,
+      "custom_topics_results": null,
+      "is_deleted": null,
+      "multichannel": null,
+      "project_id": 1443207,
+      "token_id": 1455510
+    }
+  },
+  {
+    "data": {
+      "audio": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/LJ001-0002.wav"
+    },
+    "predictions": [
+      {
+        "model_version": "assemblyai-v2",
+        "result": [
+          {
+            "id": "e975b38e40a64e2a9027ad1e5dced227",
+            "from_name": "speaker",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.08,
+              "end": 1.84,
+              "labels": ["A"],
+              "channel": 0
+            },
+            "score": 0.9628906
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "text": ["In being comparatively modern."],
+              "start": 0.08,
+              "end": 1.84,
+              "channel": 0,
+              "region_id": "e975b38e40a64e2a9027ad1e5dced227"
+            },
+            "score": 0.9628906
+          },
+          {
+            "from_name": "sentiment",
+            "to_name": "audio",
+            "type": "choices",
+            "value": {
+              "choices": ["NEUTRAL"],
+              "start": 0.08,
+              "end": 1.84,
+              "channel": 0,
+              "region_id": "e975b38e40a64e2a9027ad1e5dced227"
+            },
+            "score": 0.8085606
+          }
+        ],
+        "score": 0.9628906,
+        "extra_metadata": {
+          "confidence": 0.9628906,
+          "audio_duration": 2,
+          "chapters": [
+            {
+              "summary": "In being comparatively modern.",
+              "headline": "In being comparatively modern.",
+              "gist": "Interpretation",
+              "start": 80,
+              "end": 1840
+            }
+          ],
+          "highlights": {
+            "status": "success"
+          },
+          "sentiment_analysis": [
+            {
+              "sentiment": "NEUTRAL",
+              "speaker": "A",
+              "text": "In being comparatively modern.",
+              "start": 80,
+              "end": 1840,
+              "confidence": 0.8085606
+            }
+          ],
+          "iab_categories": {
+            "status": "success",
+            "results": [
+              {
+                "text": "In being comparatively modern.",
+                "labels": [
+                  {
+                    "relevance": 0.23919448,
+                    "label": "Home&Garden>InteriorDecorating"
+                  },
+                  {
+                    "relevance": 0.15245694,
+                    "label": "PopCulture"
+                  },
+                  {
+                    "relevance": 0.15238795,
+                    "label": "FineArt>ModernArt"
+                  },
+                  {
+                    "relevance": 0.053173106,
+                    "label": "Hobbies&Interests>ArtsAndCrafts"
+                  },
+                  {
+                    "relevance": 0.040950246,
+                    "label": "BusinessAndFinance>Industries>TechnologyIndustry"
+                  },
+                  {
+                    "relevance": 0.03918918,
+                    "label": "Style&Fashion>StreetStyle"
+                  },
+                  {
+                    "relevance": 0.02625955,
+                    "label": "Home&Garden>Remodeling&Construction"
+                  },
+                  {
+                    "relevance": 0.019024007,
+                    "label": "FineArt>Design"
+                  },
+                  {
+                    "relevance": 0.014555667,
+                    "label": "Technology&Computing"
+                  },
+                  {
+                    "relevance": 0.0088403495,
+                    "label": "FineArt"
+                  }
+                ],
+                "timestamp": {
+                  "start": 80,
+                  "end": 1840
+                },
+                "sentences_idx_start": 0,
+                "sentences_idx_end": 0
+              }
+            ],
+            "summary": {
+              "Hobbies&Interests>ArtsAndCrafts": 0.22230072,
+              "Style&Fashion>Women'sFashion": 0.036659516,
+              "FineArt": 0.036958836,
+              "MusicAndAudio>World/InternationalMusic": 0.014196683,
+              "Style&Fashion>StreetStyle": 0.16383813,
+              "Technology&Computing": 0.06085285,
+              "BusinessAndFinance>Industries>ConstructionIndustry": 0.019291941,
+              "BusinessAndFinance>Industries>TechnologyIndustry": 0.17120063,
+              "Home&Garden>InteriorDecorating": 1.0,
+              "PopCulture": 0.6373765,
+              "Home&Garden>Remodeling&Construction": 0.10978326,
+              "BusinessAndFinance>Industries": 0.01650918,
+              "BusinessAndFinance>Industries>ManufacturingIndustry": 0.029095903,
+              "BooksAndLiterature>ArtAndPhotographyBooks": 0.015686871,
+              "Style&Fashion>FashionTrends": 0.013883318,
+              "PersonalFinance>FrugalLiving": 0.012904397,
+              "FineArt>ModernArt": 0.63708806,
+              "RealEstate>Apartments": 0.017005736,
+              "FineArt>Design": 0.07953364,
+              "BusinessAndFinance>Economy": 0.011954528
+            }
+          },
+          "utterances": [
+            {
+              "speaker": "A",
+              "text": "In being comparatively modern.",
+              "confidence": 0.9628906,
+              "start": 80,
+              "end": 1840,
+              "words": [
+                {
+                  "text": "In",
+                  "start": 80,
+                  "end": 200,
+                  "confidence": 0.92285156,
+                  "speaker": "A"
+                },
+                {
+                  "text": "being",
+                  "start": 200,
+                  "end": 440,
+                  "confidence": 0.99853516,
+                  "speaker": "A"
+                },
+                {
+                  "text": "comparatively",
+                  "start": 440,
+                  "end": 1320,
+                  "confidence": 0.9321289,
+                  "speaker": "A"
+                },
+                {
+                  "text": "modern.",
+                  "start": 1320,
+                  "end": 1840,
+                  "confidence": 0.9980469,
+                  "speaker": "A"
+                }
+              ]
+            }
+          ]
+        },
+        "audio_url": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/LJ001-0002.wav"
+      }
+    ],
+    "assemblyai_raw": {
+      "id": "b40a6133-d378-43ff-b299-cf878ca357f3",
+      "language_model": "assemblyai_default",
+      "acoustic_model": "assemblyai_default",
+      "language_code": "en_us",
+      "speech_understanding": null,
+      "translated_texts": null,
+      "status": "completed",
+      "audio_url": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/LJ001-0002.wav",
+      "text": "In being comparatively modern.",
+      "words": [
+        {
+          "text": "In",
+          "start": 80,
+          "end": 200,
+          "confidence": 0.92285156,
+          "speaker": "A"
+        },
+        {
+          "text": "being",
+          "start": 200,
+          "end": 440,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "comparatively",
+          "start": 440,
+          "end": 1320,
+          "confidence": 0.9321289,
+          "speaker": "A"
+        },
+        {
+          "text": "modern.",
+          "start": 1320,
+          "end": 1840,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        }
+      ],
+      "utterances": [
+        {
+          "speaker": "A",
+          "text": "In being comparatively modern.",
+          "confidence": 0.9628906,
+          "start": 80,
+          "end": 1840,
+          "words": [
+            {
+              "text": "In",
+              "start": 80,
+              "end": 200,
+              "confidence": 0.92285156,
+              "speaker": "A"
+            },
+            {
+              "text": "being",
+              "start": 200,
+              "end": 440,
+              "confidence": 0.99853516,
+              "speaker": "A"
+            },
+            {
+              "text": "comparatively",
+              "start": 440,
+              "end": 1320,
+              "confidence": 0.9321289,
+              "speaker": "A"
+            },
+            {
+              "text": "modern.",
+              "start": 1320,
+              "end": 1840,
+              "confidence": 0.9980469,
+              "speaker": "A"
+            }
+          ]
+        }
+      ],
+      "confidence": 0.9628906,
+      "audio_duration": 2,
+      "punctuate": true,
+      "format_text": true,
+      "dual_channel": false,
+      "webhook_url": null,
+      "webhook_status_code": null,
+      "webhook_auth": false,
+      "webhook_auth_header_name": null,
+      "speed_boost": false,
+      "auto_highlights_result": {
+        "status": "success"
+      },
+      "auto_highlights": true,
+      "audio_start_from": null,
+      "audio_end_at": null,
+      "word_boost": [],
+      "boost_param": null,
+      "prompt": null,
+      "keyterms_prompt": [],
+      "filter_profanity": false,
+      "redact_pii": false,
+      "redact_pii_audio": false,
+      "redact_pii_audio_quality": null,
+      "redact_pii_audio_options": null,
+      "redact_pii_policies": null,
+      "redact_pii_sub": null,
+      "speaker_labels": true,
+      "speaker_options": null,
+      "content_safety": false,
+      "iab_categories": true,
+      "content_safety_labels": {
+        "status": "unavailable",
+        "results": [],
+        "summary": {}
+      },
+      "iab_categories_result": {
+        "status": "success",
+        "results": [
+          {
+            "text": "In being comparatively modern.",
+            "labels": [
+              {
+                "relevance": 0.23919448,
+                "label": "Home&Garden>InteriorDecorating"
+              },
+              {
+                "relevance": 0.15245694,
+                "label": "PopCulture"
+              },
+              {
+                "relevance": 0.15238795,
+                "label": "FineArt>ModernArt"
+              },
+              {
+                "relevance": 0.053173106,
+                "label": "Hobbies&Interests>ArtsAndCrafts"
+              },
+              {
+                "relevance": 0.040950246,
+                "label": "BusinessAndFinance>Industries>TechnologyIndustry"
+              },
+              {
+                "relevance": 0.03918918,
+                "label": "Style&Fashion>StreetStyle"
+              },
+              {
+                "relevance": 0.02625955,
+                "label": "Home&Garden>Remodeling&Construction"
+              },
+              {
+                "relevance": 0.019024007,
+                "label": "FineArt>Design"
+              },
+              {
+                "relevance": 0.014555667,
+                "label": "Technology&Computing"
+              },
+              {
+                "relevance": 0.0088403495,
+                "label": "FineArt"
+              }
+            ],
+            "timestamp": {
+              "start": 80,
+              "end": 1840
+            },
+            "sentences_idx_start": 0,
+            "sentences_idx_end": 0
+          }
+        ],
+        "summary": {
+          "Hobbies&Interests>ArtsAndCrafts": 0.22230072,
+          "Style&Fashion>Women'sFashion": 0.036659516,
+          "FineArt": 0.036958836,
+          "MusicAndAudio>World/InternationalMusic": 0.014196683,
+          "Style&Fashion>StreetStyle": 0.16383813,
+          "Technology&Computing": 0.06085285,
+          "BusinessAndFinance>Industries>ConstructionIndustry": 0.019291941,
+          "BusinessAndFinance>Industries>TechnologyIndustry": 0.17120063,
+          "Home&Garden>InteriorDecorating": 1.0,
+          "PopCulture": 0.6373765,
+          "Home&Garden>Remodeling&Construction": 0.10978326,
+          "BusinessAndFinance>Industries": 0.01650918,
+          "BusinessAndFinance>Industries>ManufacturingIndustry": 0.029095903,
+          "BooksAndLiterature>ArtAndPhotographyBooks": 0.015686871,
+          "Style&Fashion>FashionTrends": 0.013883318,
+          "PersonalFinance>FrugalLiving": 0.012904397,
+          "FineArt>ModernArt": 0.63708806,
+          "RealEstate>Apartments": 0.017005736,
+          "FineArt>Design": 0.07953364,
+          "BusinessAndFinance>Economy": 0.011954528
+        }
+      },
+      "language_detection": false,
+      "language_detection_options": null,
+      "language_detection_results": null,
+      "language_confidence_threshold": null,
+      "language_confidence": null,
+      "custom_spelling": null,
+      "throttled": false,
+      "auto_chapters": true,
+      "summarization": false,
+      "summary_type": null,
+      "summary_model": null,
+      "custom_topics": false,
+      "topics": [],
+      "speech_threshold": null,
+      "speech_model": null,
+      "speech_models": ["universal"],
+      "speech_model_used": "universal",
+      "chapters": [
+        {
+          "summary": "In being comparatively modern.",
+          "headline": "In being comparatively modern.",
+          "gist": "Interpretation",
+          "start": 80,
+          "end": 1840
+        }
+      ],
+      "disfluencies": false,
+      "entity_detection": true,
+      "sentiment_analysis": true,
+      "sentiment_analysis_results": [
+        {
+          "sentiment": "NEUTRAL",
+          "speaker": "A",
+          "text": "In being comparatively modern.",
+          "start": 80,
+          "end": 1840,
+          "confidence": 0.8085606
+        }
+      ],
+      "entities": null,
+      "speakers_expected": null,
+      "summary": null,
+      "custom_topics_results": null,
+      "is_deleted": null,
+      "multichannel": null,
+      "project_id": 1443207,
+      "token_id": 1455510
+    }
+  },
+  {
+    "data": {
+      "audio": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/LJ001-0003.wav"
+    },
+    "predictions": [
+      {
+        "model_version": "assemblyai-v2",
+        "result": [
+          {
+            "id": "5d346b955d584d7ebfad190ed8f7e6b6",
+            "from_name": "speaker",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.08,
+              "end": 9.36,
+              "labels": ["A"],
+              "channel": 0
+            },
+            "score": 0.97954816
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "For although the Chinese took impressions from wood blocks engraved in relief for centuries before, the woodcutters of the Netherlands, by a similar process."
+              ],
+              "start": 0.08,
+              "end": 9.36,
+              "channel": 0,
+              "region_id": "5d346b955d584d7ebfad190ed8f7e6b6"
+            },
+            "score": 0.97954816
+          },
+          {
+            "from_name": "sentiment",
+            "to_name": "audio",
+            "type": "choices",
+            "value": {
+              "choices": ["NEUTRAL"],
+              "start": 0.08,
+              "end": 9.36,
+              "channel": 0,
+              "region_id": "5d346b955d584d7ebfad190ed8f7e6b6"
+            },
+            "score": 0.87913394
+          }
+        ],
+        "score": 0.97954816,
+        "extra_metadata": {
+          "confidence": 0.97954816,
+          "audio_duration": 10,
+          "chapters": [
+            {
+              "summary": "For although the Chinese took impressions from wood blocks engraved in relief for centuries before, the woodcutters of the Netherlands used a similar process.",
+              "headline": "Dutch woodcutters took impressions from wood blocks engraved in relief",
+              "gist": "How do woodcuts get engraved?",
+              "start": 80,
+              "end": 9360
+            }
+          ],
+          "highlights": {
+            "status": "success",
+            "results": [
+              {
+                "count": 1,
+                "rank": 0.2,
+                "text": "wood blocks",
+                "timestamps": [
+                  {
+                    "start": 2560,
+                    "end": 3520
+                  }
+                ]
+              },
+              {
+                "count": 1,
+                "rank": 0.15,
+                "text": "impressions",
+                "timestamps": [
+                  {
+                    "start": 1520,
+                    "end": 2240
+                  }
+                ]
+              },
+              {
+                "count": 1,
+                "rank": 0.14,
+                "text": "relief",
+                "timestamps": [
+                  {
+                    "start": 4520,
+                    "end": 4960
+                  }
+                ]
+              },
+              {
+                "count": 1,
+                "rank": 0.14,
+                "text": "Netherlands",
+                "timestamps": [
+                  {
+                    "start": 7200,
+                    "end": 7920
+                  }
+                ]
+              },
+              {
+                "count": 1,
+                "rank": 0.11,
+                "text": "Chinese",
+                "timestamps": [
+                  {
+                    "start": 760,
+                    "end": 1280
+                  }
+                ]
+              },
+              {
+                "count": 1,
+                "rank": 0.1,
+                "text": "similar process",
+                "timestamps": [
+                  {
+                    "start": 8520,
+                    "end": 9360
+                  }
+                ]
+              },
+              {
+                "count": 1,
+                "rank": 0.09,
+                "text": "centuries",
+                "timestamps": [
+                  {
+                    "start": 5200,
+                    "end": 5760
+                  }
+                ]
+              },
+              {
+                "count": 1,
+                "rank": 0.07,
+                "text": "woodcutters",
+                "timestamps": [
+                  {
+                    "start": 6200,
+                    "end": 6920
+                  }
+                ]
+              }
+            ]
+          },
+          "entities": [
+            {
+              "entity_type": "nationality",
+              "text": "Chinese",
+              "start": 760,
+              "end": 1280
+            },
+            {
+              "entity_type": "occupation",
+              "text": "woodcutters",
+              "start": 6200,
+              "end": 6920
+            },
+            {
+              "entity_type": "location",
+              "text": "the Netherlands",
+              "start": 7040,
+              "end": 7920
+            }
+          ],
+          "sentiment_analysis": [
+            {
+              "sentiment": "NEUTRAL",
+              "speaker": "A",
+              "text": "For although the Chinese took impressions from wood blocks engraved in relief for centuries before, the woodcutters of the Netherlands, by a similar process.",
+              "start": 80,
+              "end": 9360,
+              "confidence": 0.87913394
+            }
+          ],
+          "iab_categories": {
+            "status": "success",
+            "results": [
+              {
+                "text": "For although the Chinese took impressions from wood blocks engraved in relief for centuries before, the woodcutters of the Netherlands, by a similar process.",
+                "labels": [
+                  {
+                    "relevance": 0.94218296,
+                    "label": "Hobbies&Interests>ArtsAndCrafts>DrawingAndSketching"
+                  },
+                  {
+                    "relevance": 0.72984666,
+                    "label": "Hobbies&Interests>ArtsAndCrafts>Painting"
+                  },
+                  {
+                    "relevance": 0.67731124,
+                    "label": "Hobbies&Interests>ArtsAndCrafts>Woodworking"
+                  },
+                  {
+                    "relevance": 0.47181222,
+                    "label": "Hobbies&Interests>ArtsAndCrafts"
+                  },
+                  {
+                    "relevance": 0.049770664,
+                    "label": "Home&Garden>InteriorDecorating"
+                  },
+                  {
+                    "relevance": 0.024694828,
+                    "label": "Hobbies&Interests>ArtsAndCrafts>Beadwork"
+                  },
+                  {
+                    "relevance": 0.02093515,
+                    "label": "Hobbies&Interests>AntiquingAndAntiques"
+                  },
+                  {
+                    "relevance": 0.02091769,
+                    "label": "FineArt>ModernArt"
+                  },
+                  {
+                    "relevance": 0.011417741,
+                    "label": "FineArt"
+                  },
+                  {
+                    "relevance": 0.00589905,
+                    "label": "Hobbies&Interests>ArtsAndCrafts>Scrapbooking"
+                  }
+                ],
+                "timestamp": {
+                  "start": 80,
+                  "end": 9360
+                },
+                "sentences_idx_start": 0,
+                "sentences_idx_end": 0
+              }
+            ],
+            "summary": {
+              "Hobbies&Interests>ArtsAndCrafts>Beadwork": 0.026210226,
+              "MusicAndAudio>Blues": 0.0012409149,
+              "Hobbies&Interests>ArtsAndCrafts>DrawingAndSketching": 1.0,
+              "BooksAndLiterature>Poetry": 0.0023283146,
+              "Hobbies&Interests>ArtsAndCrafts>Needlework": 0.005776893,
+              "Hobbies&Interests>ArtsAndCrafts>Painting": 0.7746337,
+              "FineArt": 0.012118391,
+              "Hobbies&Interests>ArtsAndCrafts": 0.50076497,
+              "Hobbies&Interests>ArtsAndCrafts>Scrapbooking": 0.006261045,
+              "BusinessAndFinance>Industries>MetalsIndustry": 0.0052408306,
+              "Hobbies&Interests>ArtsAndCrafts>Woodworking": 0.71887445,
+              "FineArt>ModernArt": 0.022201303,
+              "Home&Garden>InteriorDecorating": 0.05282484,
+              "Hobbies&Interests>ArtsAndCrafts>JewelryMaking": 0.003853805,
+              "BooksAndLiterature>ArtAndPhotographyBooks": 0.003962035,
+              "Automotive>AutoType>ClassicCars": 0.002452589,
+              "Pets>Dogs": 0.0009209786,
+              "FineArt>Design": 0.0031089236,
+              "FamilyAndRelationships>Parenting>ParentingBabiesAndToddlers": 0.0010534587,
+              "Hobbies&Interests>AntiquingAndAntiques": 0.022219835
+            }
+          },
+          "utterances": [
+            {
+              "speaker": "A",
+              "text": "For although the Chinese took impressions from wood blocks engraved in relief for centuries before, the woodcutters of the Netherlands, by a similar process.",
+              "confidence": 0.97954816,
+              "start": 80,
+              "end": 9360,
+              "words": [
+                {
+                  "text": "For",
+                  "start": 80,
+                  "end": 240,
+                  "confidence": 0.9916992,
+                  "speaker": "A"
+                },
+                {
+                  "text": "although",
+                  "start": 240,
+                  "end": 560,
+                  "confidence": 0.99283856,
+                  "speaker": "A"
+                },
+                {
+                  "text": "the",
+                  "start": 560,
+                  "end": 760,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "Chinese",
+                  "start": 760,
+                  "end": 1280,
+                  "confidence": 1.0,
+                  "speaker": "A"
+                },
+                {
+                  "text": "took",
+                  "start": 1280,
+                  "end": 1520,
+                  "confidence": 0.9995117,
+                  "speaker": "A"
+                },
+                {
+                  "text": "impressions",
+                  "start": 1520,
+                  "end": 2240,
+                  "confidence": 0.8413086,
+                  "speaker": "A"
+                },
+                {
+                  "text": "from",
+                  "start": 2240,
+                  "end": 2560,
+                  "confidence": 0.9995117,
+                  "speaker": "A"
+                },
+                {
+                  "text": "wood",
+                  "start": 2560,
+                  "end": 2880,
+                  "confidence": 0.99975586,
+                  "speaker": "A"
+                },
+                {
+                  "text": "blocks",
+                  "start": 2880,
+                  "end": 3520,
+                  "confidence": 0.7949219,
+                  "speaker": "A"
+                },
+                {
+                  "text": "engraved",
+                  "start": 3680,
+                  "end": 4320,
+                  "confidence": 0.9554036,
+                  "speaker": "A"
+                },
+                {
+                  "text": "in",
+                  "start": 4320,
+                  "end": 4520,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "relief",
+                  "start": 4520,
+                  "end": 4960,
+                  "confidence": 1.0,
+                  "speaker": "A"
+                },
+                {
+                  "text": "for",
+                  "start": 4960,
+                  "end": 5200,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "centuries",
+                  "start": 5200,
+                  "end": 5760,
+                  "confidence": 0.98746747,
+                  "speaker": "A"
+                },
+                {
+                  "text": "before,",
+                  "start": 5760,
+                  "end": 6000,
+                  "confidence": 1.0,
+                  "speaker": "A"
+                },
+                {
+                  "text": "the",
+                  "start": 6000,
+                  "end": 6200,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "woodcutters",
+                  "start": 6200,
+                  "end": 6920,
+                  "confidence": 0.95369464,
+                  "speaker": "A"
+                },
+                {
+                  "text": "of",
+                  "start": 6920,
+                  "end": 7040,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "the",
+                  "start": 7040,
+                  "end": 7200,
+                  "confidence": 0.9995117,
+                  "speaker": "A"
+                },
+                {
+                  "text": "Netherlands,",
+                  "start": 7200,
+                  "end": 7920,
+                  "confidence": 0.99938965,
+                  "speaker": "A"
+                },
+                {
+                  "text": "by",
+                  "start": 8080,
+                  "end": 8360,
+                  "confidence": 1.0,
+                  "speaker": "A"
+                },
+                {
+                  "text": "a",
+                  "start": 8360,
+                  "end": 8520,
+                  "confidence": 0.9995117,
+                  "speaker": "A"
+                },
+                {
+                  "text": "similar",
+                  "start": 8520,
+                  "end": 8800,
+                  "confidence": 0.9995117,
+                  "speaker": "A"
+                },
+                {
+                  "text": "process.",
+                  "start": 8960,
+                  "end": 9360,
+                  "confidence": 1.0,
+                  "speaker": "A"
+                }
+              ]
+            }
+          ]
+        },
+        "audio_url": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/LJ001-0003.wav"
+      }
+    ],
+    "assemblyai_raw": {
+      "id": "12bf234b-5c31-4d2c-a17f-ac5f34b95aaa",
+      "language_model": "assemblyai_default",
+      "acoustic_model": "assemblyai_default",
+      "language_code": "en_us",
+      "speech_understanding": null,
+      "translated_texts": null,
+      "status": "completed",
+      "audio_url": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/LJ001-0003.wav",
+      "text": "For although the Chinese took impressions from wood blocks engraved in relief for centuries before, the woodcutters of the Netherlands, by a similar process.",
+      "words": [
+        {
+          "text": "For",
+          "start": 80,
+          "end": 240,
+          "confidence": 0.9916992,
+          "speaker": "A"
+        },
+        {
+          "text": "although",
+          "start": 240,
+          "end": 560,
+          "confidence": 0.99283856,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 560,
+          "end": 760,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "Chinese",
+          "start": 760,
+          "end": 1280,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "took",
+          "start": 1280,
+          "end": 1520,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "impressions",
+          "start": 1520,
+          "end": 2240,
+          "confidence": 0.8413086,
+          "speaker": "A"
+        },
+        {
+          "text": "from",
+          "start": 2240,
+          "end": 2560,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "wood",
+          "start": 2560,
+          "end": 2880,
+          "confidence": 0.99975586,
+          "speaker": "A"
+        },
+        {
+          "text": "blocks",
+          "start": 2880,
+          "end": 3520,
+          "confidence": 0.7949219,
+          "speaker": "A"
+        },
+        {
+          "text": "engraved",
+          "start": 3680,
+          "end": 4320,
+          "confidence": 0.9554036,
+          "speaker": "A"
+        },
+        {
+          "text": "in",
+          "start": 4320,
+          "end": 4520,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "relief",
+          "start": 4520,
+          "end": 4960,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "for",
+          "start": 4960,
+          "end": 5200,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "centuries",
+          "start": 5200,
+          "end": 5760,
+          "confidence": 0.98746747,
+          "speaker": "A"
+        },
+        {
+          "text": "before,",
+          "start": 5760,
+          "end": 6000,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 6000,
+          "end": 6200,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "woodcutters",
+          "start": 6200,
+          "end": 6920,
+          "confidence": 0.95369464,
+          "speaker": "A"
+        },
+        {
+          "text": "of",
+          "start": 6920,
+          "end": 7040,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 7040,
+          "end": 7200,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "Netherlands,",
+          "start": 7200,
+          "end": 7920,
+          "confidence": 0.99938965,
+          "speaker": "A"
+        },
+        {
+          "text": "by",
+          "start": 8080,
+          "end": 8360,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "a",
+          "start": 8360,
+          "end": 8520,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "similar",
+          "start": 8520,
+          "end": 8800,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "process.",
+          "start": 8960,
+          "end": 9360,
+          "confidence": 1.0,
+          "speaker": "A"
+        }
+      ],
+      "utterances": [
+        {
+          "speaker": "A",
+          "text": "For although the Chinese took impressions from wood blocks engraved in relief for centuries before, the woodcutters of the Netherlands, by a similar process.",
+          "confidence": 0.97954816,
+          "start": 80,
+          "end": 9360,
+          "words": [
+            {
+              "text": "For",
+              "start": 80,
+              "end": 240,
+              "confidence": 0.9916992,
+              "speaker": "A"
+            },
+            {
+              "text": "although",
+              "start": 240,
+              "end": 560,
+              "confidence": 0.99283856,
+              "speaker": "A"
+            },
+            {
+              "text": "the",
+              "start": 560,
+              "end": 760,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "Chinese",
+              "start": 760,
+              "end": 1280,
+              "confidence": 1.0,
+              "speaker": "A"
+            },
+            {
+              "text": "took",
+              "start": 1280,
+              "end": 1520,
+              "confidence": 0.9995117,
+              "speaker": "A"
+            },
+            {
+              "text": "impressions",
+              "start": 1520,
+              "end": 2240,
+              "confidence": 0.8413086,
+              "speaker": "A"
+            },
+            {
+              "text": "from",
+              "start": 2240,
+              "end": 2560,
+              "confidence": 0.9995117,
+              "speaker": "A"
+            },
+            {
+              "text": "wood",
+              "start": 2560,
+              "end": 2880,
+              "confidence": 0.99975586,
+              "speaker": "A"
+            },
+            {
+              "text": "blocks",
+              "start": 2880,
+              "end": 3520,
+              "confidence": 0.7949219,
+              "speaker": "A"
+            },
+            {
+              "text": "engraved",
+              "start": 3680,
+              "end": 4320,
+              "confidence": 0.9554036,
+              "speaker": "A"
+            },
+            {
+              "text": "in",
+              "start": 4320,
+              "end": 4520,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "relief",
+              "start": 4520,
+              "end": 4960,
+              "confidence": 1.0,
+              "speaker": "A"
+            },
+            {
+              "text": "for",
+              "start": 4960,
+              "end": 5200,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "centuries",
+              "start": 5200,
+              "end": 5760,
+              "confidence": 0.98746747,
+              "speaker": "A"
+            },
+            {
+              "text": "before,",
+              "start": 5760,
+              "end": 6000,
+              "confidence": 1.0,
+              "speaker": "A"
+            },
+            {
+              "text": "the",
+              "start": 6000,
+              "end": 6200,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "woodcutters",
+              "start": 6200,
+              "end": 6920,
+              "confidence": 0.95369464,
+              "speaker": "A"
+            },
+            {
+              "text": "of",
+              "start": 6920,
+              "end": 7040,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "the",
+              "start": 7040,
+              "end": 7200,
+              "confidence": 0.9995117,
+              "speaker": "A"
+            },
+            {
+              "text": "Netherlands,",
+              "start": 7200,
+              "end": 7920,
+              "confidence": 0.99938965,
+              "speaker": "A"
+            },
+            {
+              "text": "by",
+              "start": 8080,
+              "end": 8360,
+              "confidence": 1.0,
+              "speaker": "A"
+            },
+            {
+              "text": "a",
+              "start": 8360,
+              "end": 8520,
+              "confidence": 0.9995117,
+              "speaker": "A"
+            },
+            {
+              "text": "similar",
+              "start": 8520,
+              "end": 8800,
+              "confidence": 0.9995117,
+              "speaker": "A"
+            },
+            {
+              "text": "process.",
+              "start": 8960,
+              "end": 9360,
+              "confidence": 1.0,
+              "speaker": "A"
+            }
+          ]
+        }
+      ],
+      "confidence": 0.97954816,
+      "audio_duration": 10,
+      "punctuate": true,
+      "format_text": true,
+      "dual_channel": false,
+      "webhook_url": null,
+      "webhook_status_code": null,
+      "webhook_auth": false,
+      "webhook_auth_header_name": null,
+      "speed_boost": false,
+      "auto_highlights_result": {
+        "status": "success",
+        "results": [
+          {
+            "count": 1,
+            "rank": 0.2,
+            "text": "wood blocks",
+            "timestamps": [
+              {
+                "start": 2560,
+                "end": 3520
+              }
+            ]
+          },
+          {
+            "count": 1,
+            "rank": 0.15,
+            "text": "impressions",
+            "timestamps": [
+              {
+                "start": 1520,
+                "end": 2240
+              }
+            ]
+          },
+          {
+            "count": 1,
+            "rank": 0.14,
+            "text": "relief",
+            "timestamps": [
+              {
+                "start": 4520,
+                "end": 4960
+              }
+            ]
+          },
+          {
+            "count": 1,
+            "rank": 0.14,
+            "text": "Netherlands",
+            "timestamps": [
+              {
+                "start": 7200,
+                "end": 7920
+              }
+            ]
+          },
+          {
+            "count": 1,
+            "rank": 0.11,
+            "text": "Chinese",
+            "timestamps": [
+              {
+                "start": 760,
+                "end": 1280
+              }
+            ]
+          },
+          {
+            "count": 1,
+            "rank": 0.1,
+            "text": "similar process",
+            "timestamps": [
+              {
+                "start": 8520,
+                "end": 9360
+              }
+            ]
+          },
+          {
+            "count": 1,
+            "rank": 0.09,
+            "text": "centuries",
+            "timestamps": [
+              {
+                "start": 5200,
+                "end": 5760
+              }
+            ]
+          },
+          {
+            "count": 1,
+            "rank": 0.07,
+            "text": "woodcutters",
+            "timestamps": [
+              {
+                "start": 6200,
+                "end": 6920
+              }
+            ]
+          }
+        ]
+      },
+      "auto_highlights": true,
+      "audio_start_from": null,
+      "audio_end_at": null,
+      "word_boost": [],
+      "boost_param": null,
+      "prompt": null,
+      "keyterms_prompt": [],
+      "filter_profanity": false,
+      "redact_pii": false,
+      "redact_pii_audio": false,
+      "redact_pii_audio_quality": null,
+      "redact_pii_audio_options": null,
+      "redact_pii_policies": null,
+      "redact_pii_sub": null,
+      "speaker_labels": true,
+      "speaker_options": null,
+      "content_safety": false,
+      "iab_categories": true,
+      "content_safety_labels": {
+        "status": "unavailable",
+        "results": [],
+        "summary": {}
+      },
+      "iab_categories_result": {
+        "status": "success",
+        "results": [
+          {
+            "text": "For although the Chinese took impressions from wood blocks engraved in relief for centuries before, the woodcutters of the Netherlands, by a similar process.",
+            "labels": [
+              {
+                "relevance": 0.94218296,
+                "label": "Hobbies&Interests>ArtsAndCrafts>DrawingAndSketching"
+              },
+              {
+                "relevance": 0.72984666,
+                "label": "Hobbies&Interests>ArtsAndCrafts>Painting"
+              },
+              {
+                "relevance": 0.67731124,
+                "label": "Hobbies&Interests>ArtsAndCrafts>Woodworking"
+              },
+              {
+                "relevance": 0.47181222,
+                "label": "Hobbies&Interests>ArtsAndCrafts"
+              },
+              {
+                "relevance": 0.049770664,
+                "label": "Home&Garden>InteriorDecorating"
+              },
+              {
+                "relevance": 0.024694828,
+                "label": "Hobbies&Interests>ArtsAndCrafts>Beadwork"
+              },
+              {
+                "relevance": 0.02093515,
+                "label": "Hobbies&Interests>AntiquingAndAntiques"
+              },
+              {
+                "relevance": 0.02091769,
+                "label": "FineArt>ModernArt"
+              },
+              {
+                "relevance": 0.011417741,
+                "label": "FineArt"
+              },
+              {
+                "relevance": 0.00589905,
+                "label": "Hobbies&Interests>ArtsAndCrafts>Scrapbooking"
+              }
+            ],
+            "timestamp": {
+              "start": 80,
+              "end": 9360
+            },
+            "sentences_idx_start": 0,
+            "sentences_idx_end": 0
+          }
+        ],
+        "summary": {
+          "Hobbies&Interests>ArtsAndCrafts>Beadwork": 0.026210226,
+          "MusicAndAudio>Blues": 0.0012409149,
+          "Hobbies&Interests>ArtsAndCrafts>DrawingAndSketching": 1.0,
+          "BooksAndLiterature>Poetry": 0.0023283146,
+          "Hobbies&Interests>ArtsAndCrafts>Needlework": 0.005776893,
+          "Hobbies&Interests>ArtsAndCrafts>Painting": 0.7746337,
+          "FineArt": 0.012118391,
+          "Hobbies&Interests>ArtsAndCrafts": 0.50076497,
+          "Hobbies&Interests>ArtsAndCrafts>Scrapbooking": 0.006261045,
+          "BusinessAndFinance>Industries>MetalsIndustry": 0.0052408306,
+          "Hobbies&Interests>ArtsAndCrafts>Woodworking": 0.71887445,
+          "FineArt>ModernArt": 0.022201303,
+          "Home&Garden>InteriorDecorating": 0.05282484,
+          "Hobbies&Interests>ArtsAndCrafts>JewelryMaking": 0.003853805,
+          "BooksAndLiterature>ArtAndPhotographyBooks": 0.003962035,
+          "Automotive>AutoType>ClassicCars": 0.002452589,
+          "Pets>Dogs": 0.0009209786,
+          "FineArt>Design": 0.0031089236,
+          "FamilyAndRelationships>Parenting>ParentingBabiesAndToddlers": 0.0010534587,
+          "Hobbies&Interests>AntiquingAndAntiques": 0.022219835
+        }
+      },
+      "language_detection": false,
+      "language_detection_options": null,
+      "language_detection_results": null,
+      "language_confidence_threshold": null,
+      "language_confidence": null,
+      "custom_spelling": null,
+      "throttled": false,
+      "auto_chapters": true,
+      "summarization": false,
+      "summary_type": null,
+      "summary_model": null,
+      "custom_topics": false,
+      "topics": [],
+      "speech_threshold": null,
+      "speech_model": null,
+      "speech_models": ["universal"],
+      "speech_model_used": "universal",
+      "chapters": [
+        {
+          "summary": "For although the Chinese took impressions from wood blocks engraved in relief for centuries before, the woodcutters of the Netherlands used a similar process.",
+          "headline": "Dutch woodcutters took impressions from wood blocks engraved in relief",
+          "gist": "How do woodcuts get engraved?",
+          "start": 80,
+          "end": 9360
+        }
+      ],
+      "disfluencies": false,
+      "entity_detection": true,
+      "sentiment_analysis": true,
+      "sentiment_analysis_results": [
+        {
+          "sentiment": "NEUTRAL",
+          "speaker": "A",
+          "text": "For although the Chinese took impressions from wood blocks engraved in relief for centuries before, the woodcutters of the Netherlands, by a similar process.",
+          "start": 80,
+          "end": 9360,
+          "confidence": 0.87913394
+        }
+      ],
+      "entities": [
+        {
+          "entity_type": "nationality",
+          "text": "Chinese",
+          "start": 760,
+          "end": 1280
+        },
+        {
+          "entity_type": "occupation",
+          "text": "woodcutters",
+          "start": 6200,
+          "end": 6920
+        },
+        {
+          "entity_type": "location",
+          "text": "the Netherlands",
+          "start": 7040,
+          "end": 7920
+        }
+      ],
+      "speakers_expected": null,
+      "summary": null,
+      "custom_topics_results": null,
+      "is_deleted": null,
+      "multichannel": null,
+      "project_id": 1443207,
+      "token_id": 1455510
+    }
+  },
+  {
+    "data": {
+      "audio": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/LJ001-0004.wav"
+    },
+    "predictions": [
+      {
+        "model_version": "assemblyai-v2",
+        "result": [
+          {
+            "id": "16357480fb204bd38619c4cfecd45940",
+            "from_name": "speaker",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.16,
+              "end": 5.04,
+              "labels": ["A"],
+              "channel": 0
+            },
+            "score": 0.9816662
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Produced the Block Books, which were the immediate predecessors of the True Printed Book."
+              ],
+              "start": 0.16,
+              "end": 5.04,
+              "channel": 0,
+              "region_id": "16357480fb204bd38619c4cfecd45940"
+            },
+            "score": 0.9816662
+          },
+          {
+            "from_name": "sentiment",
+            "to_name": "audio",
+            "type": "choices",
+            "value": {
+              "choices": ["NEUTRAL"],
+              "start": 0.16,
+              "end": 5.04,
+              "channel": 0,
+              "region_id": "16357480fb204bd38619c4cfecd45940"
+            },
+            "score": 0.9166391
+          }
+        ],
+        "score": 0.9816662,
+        "extra_metadata": {
+          "confidence": 0.9816662,
+          "audio_duration": 6,
+          "chapters": [
+            {
+              "summary": "Produced the Block Books, which were the immediate predecessors of the True Printed Book.",
+              "headline": "Produced the Block Books, which were the immediate predecessors of the True Printed Book",
+              "gist": "The Early Printed Book",
+              "start": 160,
+              "end": 5040
+            }
+          ],
+          "highlights": {
+            "status": "success",
+            "results": [
+              {
+                "count": 1,
+                "rank": 0.16,
+                "text": "True Printed Book",
+                "timestamps": [
+                  {
+                    "start": 3960,
+                    "end": 5040
+                  }
+                ]
+              },
+              {
+                "count": 1,
+                "rank": 0.13,
+                "text": "Block Books",
+                "timestamps": [
+                  {
+                    "start": 680,
+                    "end": 1600
+                  }
+                ]
+              },
+              {
+                "count": 1,
+                "rank": 0.12,
+                "text": "immediate predecessors",
+                "timestamps": [
+                  {
+                    "start": 2320,
+                    "end": 3640
+                  }
+                ]
+              }
+            ]
+          },
+          "sentiment_analysis": [
+            {
+              "sentiment": "NEUTRAL",
+              "speaker": "A",
+              "text": "Produced the Block Books, which were the immediate predecessors of the True Printed Book.",
+              "start": 160,
+              "end": 5040,
+              "confidence": 0.9166391
+            }
+          ],
+          "iab_categories": {
+            "status": "success",
+            "results": [
+              {
+                "text": "Produced the Block Books, which were the immediate predecessors of the True Printed Book.",
+                "labels": [
+                  {
+                    "relevance": 0.70064944,
+                    "label": "Hobbies&Interests>ArtsAndCrafts>Scrapbooking"
+                  },
+                  {
+                    "relevance": 0.69565886,
+                    "label": "BusinessAndFinance>Industries>PublishingIndustry"
+                  },
+                  {
+                    "relevance": 0.12599036,
+                    "label": "Technology&Computing>Computing>ComputerSoftwareAndApplications>DesktopPublishing"
+                  },
+                  {
+                    "relevance": 0.116785385,
+                    "label": "BooksAndLiterature>ArtAndPhotographyBooks"
+                  },
+                  {
+                    "relevance": 0.065042675,
+                    "label": "BooksAndLiterature>ComicsAndGraphicNovels"
+                  },
+                  {
+                    "relevance": 0.019426804,
+                    "label": "Hobbies&Interests>Collecting"
+                  },
+                  {
+                    "relevance": 0.016746534,
+                    "label": "Hobbies&Interests>Collecting>ComicBooks"
+                  },
+                  {
+                    "relevance": 0.013159727,
+                    "label": "BooksAndLiterature>Children'sLiterature"
+                  },
+                  {
+                    "relevance": 0.010878797,
+                    "label": "FineArt>Design"
+                  },
+                  {
+                    "relevance": 0.00623288,
+                    "label": "Hobbies&Interests>Collecting>StampsAndCoins"
+                  }
+                ],
+                "timestamp": {
+                  "start": 160,
+                  "end": 5040
+                },
+                "sentences_idx_start": 0,
+                "sentences_idx_end": 0
+              }
+            ],
+            "summary": {
+              "BooksAndLiterature>YoungAdultLiterature": 0.0038826067,
+              "Technology&Computing>ConsumerElectronics": 0.0014416593,
+              "Hobbies&Interests>ArtsAndCrafts>Scrapbooking": 1.0,
+              "Movies": 0.001572816,
+              "Hobbies&Interests>ArtsAndCrafts>Photography": 0.0033503727,
+              "Hobbies&Interests>ArtsAndCrafts>DrawingAndSketching": 0.0014021838,
+              "BusinessAndFinance>Industries>PublishingIndustry": 0.9928772,
+              "Hobbies&Interests>Collecting": 0.027726853,
+              "Hobbies&Interests>Collecting>ComicBooks": 0.023901446,
+              "BooksAndLiterature": 0.006203552,
+              "Technology&Computing>ConsumerElectronics>TabletsAndE-readers": 0.0031416027,
+              "Technology&Computing>Computing>ComputerSoftwareAndApplications>DesktopPublishing": 0.1798194,
+              "BooksAndLiterature>ArtAndPhotographyBooks": 0.16668162,
+              "BooksAndLiterature>ComicsAndGraphicNovels": 0.09283198,
+              "Home&Garden>HomeEntertaining": 0.0027513339,
+              "Hobbies&Interests>Collecting>StampsAndCoins": 0.008895861,
+              "Hobbies&Interests>ContentProduction>AudioProduction": 0.0032398498,
+              "Shopping>GiftsAndGreetingsCards": 0.0031853677,
+              "FineArt>Design": 0.015526732,
+              "BooksAndLiterature>Children'sLiterature": 0.018782184
+            }
+          },
+          "utterances": [
+            {
+              "speaker": "A",
+              "text": "Produced the Block Books, which were the immediate predecessors of the True Printed Book.",
+              "confidence": 0.9816662,
+              "start": 160,
+              "end": 5040,
+              "words": [
+                {
+                  "text": "Produced",
+                  "start": 160,
+                  "end": 480,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "the",
+                  "start": 480,
+                  "end": 680,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "Block",
+                  "start": 680,
+                  "end": 1040,
+                  "confidence": 0.8378906,
+                  "speaker": "A"
+                },
+                {
+                  "text": "Books,",
+                  "start": 1040,
+                  "end": 1600,
+                  "confidence": 0.9934082,
+                  "speaker": "A"
+                },
+                {
+                  "text": "which",
+                  "start": 1600,
+                  "end": 1920,
+                  "confidence": 0.9995117,
+                  "speaker": "A"
+                },
+                {
+                  "text": "were",
+                  "start": 1920,
+                  "end": 2120,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "the",
+                  "start": 2120,
+                  "end": 2320,
+                  "confidence": 0.9995117,
+                  "speaker": "A"
+                },
+                {
+                  "text": "immediate",
+                  "start": 2320,
+                  "end": 2840,
+                  "confidence": 0.9635417,
+                  "speaker": "A"
+                },
+                {
+                  "text": "predecessors",
+                  "start": 2840,
+                  "end": 3640,
+                  "confidence": 0.95874023,
+                  "speaker": "A"
+                },
+                {
+                  "text": "of",
+                  "start": 3640,
+                  "end": 3800,
+                  "confidence": 0.9970703,
+                  "speaker": "A"
+                },
+                {
+                  "text": "the",
+                  "start": 3800,
+                  "end": 3960,
+                  "confidence": 0.99853516,
+                  "speaker": "A"
+                },
+                {
+                  "text": "True",
+                  "start": 3960,
+                  "end": 4240,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "Printed",
+                  "start": 4240,
+                  "end": 4720,
+                  "confidence": 1.0,
+                  "speaker": "A"
+                },
+                {
+                  "text": "Book.",
+                  "start": 4720,
+                  "end": 5040,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                }
+              ]
+            }
+          ]
+        },
+        "audio_url": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/LJ001-0004.wav"
+      }
+    ],
+    "assemblyai_raw": {
+      "id": "597c1983-ec42-4766-9e8d-eedd8ae902f7",
+      "language_model": "assemblyai_default",
+      "acoustic_model": "assemblyai_default",
+      "language_code": "en_us",
+      "speech_understanding": null,
+      "translated_texts": null,
+      "status": "completed",
+      "audio_url": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/LJ001-0004.wav",
+      "text": "Produced the Block Books, which were the immediate predecessors of the True Printed Book.",
+      "words": [
+        {
+          "text": "Produced",
+          "start": 160,
+          "end": 480,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 480,
+          "end": 680,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "Block",
+          "start": 680,
+          "end": 1040,
+          "confidence": 0.8378906,
+          "speaker": "A"
+        },
+        {
+          "text": "Books,",
+          "start": 1040,
+          "end": 1600,
+          "confidence": 0.9934082,
+          "speaker": "A"
+        },
+        {
+          "text": "which",
+          "start": 1600,
+          "end": 1920,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "were",
+          "start": 1920,
+          "end": 2120,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 2120,
+          "end": 2320,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "immediate",
+          "start": 2320,
+          "end": 2840,
+          "confidence": 0.9635417,
+          "speaker": "A"
+        },
+        {
+          "text": "predecessors",
+          "start": 2840,
+          "end": 3640,
+          "confidence": 0.95874023,
+          "speaker": "A"
+        },
+        {
+          "text": "of",
+          "start": 3640,
+          "end": 3800,
+          "confidence": 0.9970703,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 3800,
+          "end": 3960,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "True",
+          "start": 3960,
+          "end": 4240,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "Printed",
+          "start": 4240,
+          "end": 4720,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "Book.",
+          "start": 4720,
+          "end": 5040,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        }
+      ],
+      "utterances": [
+        {
+          "speaker": "A",
+          "text": "Produced the Block Books, which were the immediate predecessors of the True Printed Book.",
+          "confidence": 0.9816662,
+          "start": 160,
+          "end": 5040,
+          "words": [
+            {
+              "text": "Produced",
+              "start": 160,
+              "end": 480,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "the",
+              "start": 480,
+              "end": 680,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "Block",
+              "start": 680,
+              "end": 1040,
+              "confidence": 0.8378906,
+              "speaker": "A"
+            },
+            {
+              "text": "Books,",
+              "start": 1040,
+              "end": 1600,
+              "confidence": 0.9934082,
+              "speaker": "A"
+            },
+            {
+              "text": "which",
+              "start": 1600,
+              "end": 1920,
+              "confidence": 0.9995117,
+              "speaker": "A"
+            },
+            {
+              "text": "were",
+              "start": 1920,
+              "end": 2120,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "the",
+              "start": 2120,
+              "end": 2320,
+              "confidence": 0.9995117,
+              "speaker": "A"
+            },
+            {
+              "text": "immediate",
+              "start": 2320,
+              "end": 2840,
+              "confidence": 0.9635417,
+              "speaker": "A"
+            },
+            {
+              "text": "predecessors",
+              "start": 2840,
+              "end": 3640,
+              "confidence": 0.95874023,
+              "speaker": "A"
+            },
+            {
+              "text": "of",
+              "start": 3640,
+              "end": 3800,
+              "confidence": 0.9970703,
+              "speaker": "A"
+            },
+            {
+              "text": "the",
+              "start": 3800,
+              "end": 3960,
+              "confidence": 0.99853516,
+              "speaker": "A"
+            },
+            {
+              "text": "True",
+              "start": 3960,
+              "end": 4240,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "Printed",
+              "start": 4240,
+              "end": 4720,
+              "confidence": 1.0,
+              "speaker": "A"
+            },
+            {
+              "text": "Book.",
+              "start": 4720,
+              "end": 5040,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            }
+          ]
+        }
+      ],
+      "confidence": 0.9816662,
+      "audio_duration": 6,
+      "punctuate": true,
+      "format_text": true,
+      "dual_channel": false,
+      "webhook_url": null,
+      "webhook_status_code": null,
+      "webhook_auth": false,
+      "webhook_auth_header_name": null,
+      "speed_boost": false,
+      "auto_highlights_result": {
+        "status": "success",
+        "results": [
+          {
+            "count": 1,
+            "rank": 0.16,
+            "text": "True Printed Book",
+            "timestamps": [
+              {
+                "start": 3960,
+                "end": 5040
+              }
+            ]
+          },
+          {
+            "count": 1,
+            "rank": 0.13,
+            "text": "Block Books",
+            "timestamps": [
+              {
+                "start": 680,
+                "end": 1600
+              }
+            ]
+          },
+          {
+            "count": 1,
+            "rank": 0.12,
+            "text": "immediate predecessors",
+            "timestamps": [
+              {
+                "start": 2320,
+                "end": 3640
+              }
+            ]
+          }
+        ]
+      },
+      "auto_highlights": true,
+      "audio_start_from": null,
+      "audio_end_at": null,
+      "word_boost": [],
+      "boost_param": null,
+      "prompt": null,
+      "keyterms_prompt": [],
+      "filter_profanity": false,
+      "redact_pii": false,
+      "redact_pii_audio": false,
+      "redact_pii_audio_quality": null,
+      "redact_pii_audio_options": null,
+      "redact_pii_policies": null,
+      "redact_pii_sub": null,
+      "speaker_labels": true,
+      "speaker_options": null,
+      "content_safety": false,
+      "iab_categories": true,
+      "content_safety_labels": {
+        "status": "unavailable",
+        "results": [],
+        "summary": {}
+      },
+      "iab_categories_result": {
+        "status": "success",
+        "results": [
+          {
+            "text": "Produced the Block Books, which were the immediate predecessors of the True Printed Book.",
+            "labels": [
+              {
+                "relevance": 0.70064944,
+                "label": "Hobbies&Interests>ArtsAndCrafts>Scrapbooking"
+              },
+              {
+                "relevance": 0.69565886,
+                "label": "BusinessAndFinance>Industries>PublishingIndustry"
+              },
+              {
+                "relevance": 0.12599036,
+                "label": "Technology&Computing>Computing>ComputerSoftwareAndApplications>DesktopPublishing"
+              },
+              {
+                "relevance": 0.116785385,
+                "label": "BooksAndLiterature>ArtAndPhotographyBooks"
+              },
+              {
+                "relevance": 0.065042675,
+                "label": "BooksAndLiterature>ComicsAndGraphicNovels"
+              },
+              {
+                "relevance": 0.019426804,
+                "label": "Hobbies&Interests>Collecting"
+              },
+              {
+                "relevance": 0.016746534,
+                "label": "Hobbies&Interests>Collecting>ComicBooks"
+              },
+              {
+                "relevance": 0.013159727,
+                "label": "BooksAndLiterature>Children'sLiterature"
+              },
+              {
+                "relevance": 0.010878797,
+                "label": "FineArt>Design"
+              },
+              {
+                "relevance": 0.00623288,
+                "label": "Hobbies&Interests>Collecting>StampsAndCoins"
+              }
+            ],
+            "timestamp": {
+              "start": 160,
+              "end": 5040
+            },
+            "sentences_idx_start": 0,
+            "sentences_idx_end": 0
+          }
+        ],
+        "summary": {
+          "BooksAndLiterature>YoungAdultLiterature": 0.0038826067,
+          "Technology&Computing>ConsumerElectronics": 0.0014416593,
+          "Hobbies&Interests>ArtsAndCrafts>Scrapbooking": 1.0,
+          "Movies": 0.001572816,
+          "Hobbies&Interests>ArtsAndCrafts>Photography": 0.0033503727,
+          "Hobbies&Interests>ArtsAndCrafts>DrawingAndSketching": 0.0014021838,
+          "BusinessAndFinance>Industries>PublishingIndustry": 0.9928772,
+          "Hobbies&Interests>Collecting": 0.027726853,
+          "Hobbies&Interests>Collecting>ComicBooks": 0.023901446,
+          "BooksAndLiterature": 0.006203552,
+          "Technology&Computing>ConsumerElectronics>TabletsAndE-readers": 0.0031416027,
+          "Technology&Computing>Computing>ComputerSoftwareAndApplications>DesktopPublishing": 0.1798194,
+          "BooksAndLiterature>ArtAndPhotographyBooks": 0.16668162,
+          "BooksAndLiterature>ComicsAndGraphicNovels": 0.09283198,
+          "Home&Garden>HomeEntertaining": 0.0027513339,
+          "Hobbies&Interests>Collecting>StampsAndCoins": 0.008895861,
+          "Hobbies&Interests>ContentProduction>AudioProduction": 0.0032398498,
+          "Shopping>GiftsAndGreetingsCards": 0.0031853677,
+          "FineArt>Design": 0.015526732,
+          "BooksAndLiterature>Children'sLiterature": 0.018782184
+        }
+      },
+      "language_detection": false,
+      "language_detection_options": null,
+      "language_detection_results": null,
+      "language_confidence_threshold": null,
+      "language_confidence": null,
+      "custom_spelling": null,
+      "throttled": false,
+      "auto_chapters": true,
+      "summarization": false,
+      "summary_type": null,
+      "summary_model": null,
+      "custom_topics": false,
+      "topics": [],
+      "speech_threshold": null,
+      "speech_model": null,
+      "speech_models": ["universal"],
+      "speech_model_used": "universal",
+      "chapters": [
+        {
+          "summary": "Produced the Block Books, which were the immediate predecessors of the True Printed Book.",
+          "headline": "Produced the Block Books, which were the immediate predecessors of the True Printed Book",
+          "gist": "The Early Printed Book",
+          "start": 160,
+          "end": 5040
+        }
+      ],
+      "disfluencies": false,
+      "entity_detection": true,
+      "sentiment_analysis": true,
+      "sentiment_analysis_results": [
+        {
+          "sentiment": "NEUTRAL",
+          "speaker": "A",
+          "text": "Produced the Block Books, which were the immediate predecessors of the True Printed Book.",
+          "start": 160,
+          "end": 5040,
+          "confidence": 0.9166391
+        }
+      ],
+      "entities": null,
+      "speakers_expected": null,
+      "summary": null,
+      "custom_topics_results": null,
+      "is_deleted": null,
+      "multichannel": null,
+      "project_id": 1443207,
+      "token_id": 1455510
+    }
+  },
+  {
+    "data": {
+      "audio": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/LJ001-0005.wav"
+    },
+    "predictions": [
+      {
+        "model_version": "assemblyai-v2",
+        "result": [
+          {
+            "id": "6c1e5e0e449841228a319ad9d32e8024",
+            "from_name": "speaker",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.08,
+              "end": 8.08,
+              "labels": ["A"],
+              "channel": 0
+            },
+            "score": 0.99516934
+          },
+          {
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "The invention of movable metal letters in the middle of the 15th century may justly be considered as the invention of the art of printing."
+              ],
+              "start": 0.08,
+              "end": 8.08,
+              "channel": 0,
+              "region_id": "6c1e5e0e449841228a319ad9d32e8024"
+            },
+            "score": 0.99516934
+          },
+          {
+            "from_name": "sentiment",
+            "to_name": "audio",
+            "type": "choices",
+            "value": {
+              "choices": ["NEUTRAL"],
+              "start": 0.08,
+              "end": 8.08,
+              "channel": 0,
+              "region_id": "6c1e5e0e449841228a319ad9d32e8024"
+            },
+            "score": 0.8261955
+          }
+        ],
+        "score": 0.99516934,
+        "extra_metadata": {
+          "confidence": 0.99516934,
+          "audio_duration": 9,
+          "chapters": [
+            {
+              "summary": "The invention of movable metal letters in the middle of the 15th century may justly be considered as the invention of the art of printing.",
+              "headline": "The invention of movable metal letters in the middle of the 15th century",
+              "gist": "The invention of movable metal letters",
+              "start": 80,
+              "end": 8080
+            }
+          ],
+          "highlights": {
+            "status": "success",
+            "results": [
+              {
+                "count": 1,
+                "rank": 0.22,
+                "text": "movable metal letters",
+                "timestamps": [
+                  {
+                    "start": 800,
+                    "end": 2120
+                  }
+                ]
+              },
+              {
+                "count": 1,
+                "rank": 0.11,
+                "text": "15th century",
+                "timestamps": [
+                  {
+                    "start": 2880,
+                    "end": 4000
+                  }
+                ]
+              },
+              {
+                "count": 1,
+                "rank": 0.11,
+                "text": "printing",
+                "timestamps": [
+                  {
+                    "start": 7560,
+                    "end": 8080
+                  }
+                ]
+              },
+              {
+                "count": 2,
+                "rank": 0.09,
+                "text": "invention",
+                "timestamps": [
+                  {
+                    "start": 200,
+                    "end": 560
+                  },
+                  {
+                    "start": 6440,
+                    "end": 6840
+                  }
+                ]
+              },
+              {
+                "count": 1,
+                "rank": 0.08,
+                "text": "middle of the 15th century",
+                "timestamps": [
+                  {
+                    "start": 2360,
+                    "end": 4000
+                  }
+                ]
+              },
+              {
+                "count": 1,
+                "rank": 0.07,
+                "text": "art",
+                "timestamps": [
+                  {
+                    "start": 7160,
+                    "end": 7360
+                  }
+                ]
+              },
+              {
+                "count": 1,
+                "rank": 0.07,
+                "text": "middle",
+                "timestamps": [
+                  {
+                    "start": 2360,
+                    "end": 2640
+                  }
+                ]
+              }
+            ]
+          },
+          "sentiment_analysis": [
+            {
+              "sentiment": "NEUTRAL",
+              "speaker": "A",
+              "text": "The invention of movable metal letters in the middle of the 15th century may justly be considered as the invention of the art of printing.",
+              "start": 80,
+              "end": 8080,
+              "confidence": 0.8261955
+            }
+          ],
+          "iab_categories": {
+            "status": "success",
+            "results": [
+              {
+                "text": "The invention of movable metal letters in the middle of the 15th century may justly be considered as the invention of the art of printing.",
+                "labels": [
+                  {
+                    "relevance": 0.39475995,
+                    "label": "FineArt>Design"
+                  },
+                  {
+                    "relevance": 0.26224568,
+                    "label": "Hobbies&Interests>ArtsAndCrafts>Needlework"
+                  },
+                  {
+                    "relevance": 0.24412495,
+                    "label": "BusinessAndFinance>Industries>TechnologyIndustry"
+                  },
+                  {
+                    "relevance": 0.2308106,
+                    "label": "BusinessAndFinance>Industries>ManufacturingIndustry"
+                  },
+                  {
+                    "relevance": 0.12688306,
+                    "label": "Hobbies&Interests>ArtsAndCrafts>DrawingAndSketching"
+                  },
+                  {
+                    "relevance": 0.10319842,
+                    "label": "Hobbies&Interests>ArtsAndCrafts"
+                  },
+                  {
+                    "relevance": 0.10160146,
+                    "label": "Technology&Computing>Computing>ComputerSoftwareAndApplications>DesktopPublishing"
+                  },
+                  {
+                    "relevance": 0.076724544,
+                    "label": "Technology&Computing"
+                  },
+                  {
+                    "relevance": 0.03151372,
+                    "label": "FineArt>DigitalArts"
+                  },
+                  {
+                    "relevance": 0.02142723,
+                    "label": "BooksAndLiterature>ArtAndPhotographyBooks"
+                  }
+                ],
+                "timestamp": {
+                  "start": 80,
+                  "end": 8080
+                },
+                "sentences_idx_start": 0,
+                "sentences_idx_end": 0
+              }
+            ],
+            "summary": {
+              "Hobbies&Interests>ArtsAndCrafts>Needlework": 0.66431683,
+              "Hobbies&Interests>ArtsAndCrafts": 0.2614207,
+              "BusinessAndFinance>Industries>MediaIndustry": 0.04662211,
+              "Hobbies&Interests>ArtsAndCrafts>Photography": 0.04839364,
+              "Hobbies&Interests>ArtsAndCrafts>DrawingAndSketching": 0.32141826,
+              "BusinessAndFinance>Industries>PublishingIndustry": 0.015887447,
+              "Hobbies&Interests>ArtsAndCrafts>Scrapbooking": 0.021633076,
+              "Technology&Computing": 0.19435747,
+              "BusinessAndFinance>Industries>TechnologyIndustry": 0.6184137,
+              "Technology&Computing>Computing>Internet>ITAndInternetSupport": 0.012333434,
+              "Sports>TrackAndField": 0.011235573,
+              "BusinessAndFinance>Industries>MetalsIndustry": 0.036521833,
+              "Hobbies&Interests>ArtsAndCrafts>JewelryMaking": 0.017231748,
+              "Technology&Computing>Computing>ComputerSoftwareAndApplications>DesktopPublishing": 0.2573753,
+              "BooksAndLiterature>ArtAndPhotographyBooks": 0.05427914,
+              "BusinessAndFinance>Industries>ManufacturingIndustry": 0.5846859,
+              "Hobbies&Interests>Collecting>StampsAndCoins": 0.023448072,
+              "RealEstate>IndustrialProperty": 0.049537115,
+              "FineArt>Design": 1.0,
+              "FineArt>DigitalArts": 0.07983009
+            }
+          },
+          "utterances": [
+            {
+              "speaker": "A",
+              "text": "The invention of movable metal letters in the middle of the 15th century may justly be considered as the invention of the art of printing.",
+              "confidence": 0.99516934,
+              "start": 80,
+              "end": 8080,
+              "words": [
+                {
+                  "text": "The",
+                  "start": 80,
+                  "end": 200,
+                  "confidence": 0.9736328,
+                  "speaker": "A"
+                },
+                {
+                  "text": "invention",
+                  "start": 200,
+                  "end": 560,
+                  "confidence": 0.9992676,
+                  "speaker": "A"
+                },
+                {
+                  "text": "of",
+                  "start": 560,
+                  "end": 800,
+                  "confidence": 0.99853516,
+                  "speaker": "A"
+                },
+                {
+                  "text": "movable",
+                  "start": 800,
+                  "end": 1240,
+                  "confidence": 0.92871094,
+                  "speaker": "A"
+                },
+                {
+                  "text": "metal",
+                  "start": 1240,
+                  "end": 1680,
+                  "confidence": 0.9987793,
+                  "speaker": "A"
+                },
+                {
+                  "text": "letters",
+                  "start": 1680,
+                  "end": 2120,
+                  "confidence": 0.9991862,
+                  "speaker": "A"
+                },
+                {
+                  "text": "in",
+                  "start": 2120,
+                  "end": 2240,
+                  "confidence": 0.99853516,
+                  "speaker": "A"
+                },
+                {
+                  "text": "the",
+                  "start": 2240,
+                  "end": 2360,
+                  "confidence": 0.9980469,
+                  "speaker": "A"
+                },
+                {
+                  "text": "middle",
+                  "start": 2360,
+                  "end": 2640,
+                  "confidence": 0.9998372,
+                  "speaker": "A"
+                },
+                {
+                  "text": "of",
+                  "start": 2640,
+                  "end": 2720,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "the",
+                  "start": 2720,
+                  "end": 2880,
+                  "confidence": 0.99853516,
+                  "speaker": "A"
+                },
+                {
+                  "text": "15th",
+                  "start": 2880,
+                  "end": 3440,
+                  "confidence": 0.99927,
+                  "speaker": "A"
+                },
+                {
+                  "text": "century",
+                  "start": 3440,
+                  "end": 4000,
+                  "confidence": 1.0,
+                  "speaker": "A"
+                },
+                {
+                  "text": "may",
+                  "start": 4160,
+                  "end": 4480,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "justly",
+                  "start": 4480,
+                  "end": 5000,
+                  "confidence": 0.9995117,
+                  "speaker": "A"
+                },
+                {
+                  "text": "be",
+                  "start": 5000,
+                  "end": 5200,
+                  "confidence": 0.99853516,
+                  "speaker": "A"
+                },
+                {
+                  "text": "considered",
+                  "start": 5200,
+                  "end": 5920,
+                  "confidence": 0.99975586,
+                  "speaker": "A"
+                },
+                {
+                  "text": "as",
+                  "start": 5920,
+                  "end": 6240,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "the",
+                  "start": 6240,
+                  "end": 6440,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "invention",
+                  "start": 6440,
+                  "end": 6840,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "of",
+                  "start": 6840,
+                  "end": 7040,
+                  "confidence": 0.9980469,
+                  "speaker": "A"
+                },
+                {
+                  "text": "the",
+                  "start": 7040,
+                  "end": 7160,
+                  "confidence": 0.99853516,
+                  "speaker": "A"
+                },
+                {
+                  "text": "art",
+                  "start": 7160,
+                  "end": 7360,
+                  "confidence": 0.9995117,
+                  "speaker": "A"
+                },
+                {
+                  "text": "of",
+                  "start": 7360,
+                  "end": 7560,
+                  "confidence": 0.99902344,
+                  "speaker": "A"
+                },
+                {
+                  "text": "printing.",
+                  "start": 7560,
+                  "end": 8080,
+                  "confidence": 0.99886066,
+                  "speaker": "A"
+                }
+              ]
+            }
+          ]
+        },
+        "audio_url": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/LJ001-0005.wav"
+      }
+    ],
+    "assemblyai_raw": {
+      "id": "6004cad0-716b-4583-bda5-7a3c3dfb6461",
+      "language_model": "assemblyai_default",
+      "acoustic_model": "assemblyai_default",
+      "language_code": "en_us",
+      "speech_understanding": null,
+      "translated_texts": null,
+      "status": "completed",
+      "audio_url": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/LJ001-0005.wav",
+      "text": "The invention of movable metal letters in the middle of the 15th century may justly be considered as the invention of the art of printing.",
+      "words": [
+        {
+          "text": "The",
+          "start": 80,
+          "end": 200,
+          "confidence": 0.9736328,
+          "speaker": "A"
+        },
+        {
+          "text": "invention",
+          "start": 200,
+          "end": 560,
+          "confidence": 0.9992676,
+          "speaker": "A"
+        },
+        {
+          "text": "of",
+          "start": 560,
+          "end": 800,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "movable",
+          "start": 800,
+          "end": 1240,
+          "confidence": 0.92871094,
+          "speaker": "A"
+        },
+        {
+          "text": "metal",
+          "start": 1240,
+          "end": 1680,
+          "confidence": 0.9987793,
+          "speaker": "A"
+        },
+        {
+          "text": "letters",
+          "start": 1680,
+          "end": 2120,
+          "confidence": 0.9991862,
+          "speaker": "A"
+        },
+        {
+          "text": "in",
+          "start": 2120,
+          "end": 2240,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 2240,
+          "end": 2360,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "middle",
+          "start": 2360,
+          "end": 2640,
+          "confidence": 0.9998372,
+          "speaker": "A"
+        },
+        {
+          "text": "of",
+          "start": 2640,
+          "end": 2720,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 2720,
+          "end": 2880,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "15th",
+          "start": 2880,
+          "end": 3440,
+          "confidence": 0.99927,
+          "speaker": "A"
+        },
+        {
+          "text": "century",
+          "start": 3440,
+          "end": 4000,
+          "confidence": 1.0,
+          "speaker": "A"
+        },
+        {
+          "text": "may",
+          "start": 4160,
+          "end": 4480,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "justly",
+          "start": 4480,
+          "end": 5000,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "be",
+          "start": 5000,
+          "end": 5200,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "considered",
+          "start": 5200,
+          "end": 5920,
+          "confidence": 0.99975586,
+          "speaker": "A"
+        },
+        {
+          "text": "as",
+          "start": 5920,
+          "end": 6240,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 6240,
+          "end": 6440,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "invention",
+          "start": 6440,
+          "end": 6840,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "of",
+          "start": 6840,
+          "end": 7040,
+          "confidence": 0.9980469,
+          "speaker": "A"
+        },
+        {
+          "text": "the",
+          "start": 7040,
+          "end": 7160,
+          "confidence": 0.99853516,
+          "speaker": "A"
+        },
+        {
+          "text": "art",
+          "start": 7160,
+          "end": 7360,
+          "confidence": 0.9995117,
+          "speaker": "A"
+        },
+        {
+          "text": "of",
+          "start": 7360,
+          "end": 7560,
+          "confidence": 0.99902344,
+          "speaker": "A"
+        },
+        {
+          "text": "printing.",
+          "start": 7560,
+          "end": 8080,
+          "confidence": 0.99886066,
+          "speaker": "A"
+        }
+      ],
+      "utterances": [
+        {
+          "speaker": "A",
+          "text": "The invention of movable metal letters in the middle of the 15th century may justly be considered as the invention of the art of printing.",
+          "confidence": 0.99516934,
+          "start": 80,
+          "end": 8080,
+          "words": [
+            {
+              "text": "The",
+              "start": 80,
+              "end": 200,
+              "confidence": 0.9736328,
+              "speaker": "A"
+            },
+            {
+              "text": "invention",
+              "start": 200,
+              "end": 560,
+              "confidence": 0.9992676,
+              "speaker": "A"
+            },
+            {
+              "text": "of",
+              "start": 560,
+              "end": 800,
+              "confidence": 0.99853516,
+              "speaker": "A"
+            },
+            {
+              "text": "movable",
+              "start": 800,
+              "end": 1240,
+              "confidence": 0.92871094,
+              "speaker": "A"
+            },
+            {
+              "text": "metal",
+              "start": 1240,
+              "end": 1680,
+              "confidence": 0.9987793,
+              "speaker": "A"
+            },
+            {
+              "text": "letters",
+              "start": 1680,
+              "end": 2120,
+              "confidence": 0.9991862,
+              "speaker": "A"
+            },
+            {
+              "text": "in",
+              "start": 2120,
+              "end": 2240,
+              "confidence": 0.99853516,
+              "speaker": "A"
+            },
+            {
+              "text": "the",
+              "start": 2240,
+              "end": 2360,
+              "confidence": 0.9980469,
+              "speaker": "A"
+            },
+            {
+              "text": "middle",
+              "start": 2360,
+              "end": 2640,
+              "confidence": 0.9998372,
+              "speaker": "A"
+            },
+            {
+              "text": "of",
+              "start": 2640,
+              "end": 2720,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "the",
+              "start": 2720,
+              "end": 2880,
+              "confidence": 0.99853516,
+              "speaker": "A"
+            },
+            {
+              "text": "15th",
+              "start": 2880,
+              "end": 3440,
+              "confidence": 0.99927,
+              "speaker": "A"
+            },
+            {
+              "text": "century",
+              "start": 3440,
+              "end": 4000,
+              "confidence": 1.0,
+              "speaker": "A"
+            },
+            {
+              "text": "may",
+              "start": 4160,
+              "end": 4480,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "justly",
+              "start": 4480,
+              "end": 5000,
+              "confidence": 0.9995117,
+              "speaker": "A"
+            },
+            {
+              "text": "be",
+              "start": 5000,
+              "end": 5200,
+              "confidence": 0.99853516,
+              "speaker": "A"
+            },
+            {
+              "text": "considered",
+              "start": 5200,
+              "end": 5920,
+              "confidence": 0.99975586,
+              "speaker": "A"
+            },
+            {
+              "text": "as",
+              "start": 5920,
+              "end": 6240,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "the",
+              "start": 6240,
+              "end": 6440,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "invention",
+              "start": 6440,
+              "end": 6840,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "of",
+              "start": 6840,
+              "end": 7040,
+              "confidence": 0.9980469,
+              "speaker": "A"
+            },
+            {
+              "text": "the",
+              "start": 7040,
+              "end": 7160,
+              "confidence": 0.99853516,
+              "speaker": "A"
+            },
+            {
+              "text": "art",
+              "start": 7160,
+              "end": 7360,
+              "confidence": 0.9995117,
+              "speaker": "A"
+            },
+            {
+              "text": "of",
+              "start": 7360,
+              "end": 7560,
+              "confidence": 0.99902344,
+              "speaker": "A"
+            },
+            {
+              "text": "printing.",
+              "start": 7560,
+              "end": 8080,
+              "confidence": 0.99886066,
+              "speaker": "A"
+            }
+          ]
+        }
+      ],
+      "confidence": 0.99516934,
+      "audio_duration": 9,
+      "punctuate": true,
+      "format_text": true,
+      "dual_channel": false,
+      "webhook_url": null,
+      "webhook_status_code": null,
+      "webhook_auth": false,
+      "webhook_auth_header_name": null,
+      "speed_boost": false,
+      "auto_highlights_result": {
+        "status": "success",
+        "results": [
+          {
+            "count": 1,
+            "rank": 0.22,
+            "text": "movable metal letters",
+            "timestamps": [
+              {
+                "start": 800,
+                "end": 2120
+              }
+            ]
+          },
+          {
+            "count": 1,
+            "rank": 0.11,
+            "text": "15th century",
+            "timestamps": [
+              {
+                "start": 2880,
+                "end": 4000
+              }
+            ]
+          },
+          {
+            "count": 1,
+            "rank": 0.11,
+            "text": "printing",
+            "timestamps": [
+              {
+                "start": 7560,
+                "end": 8080
+              }
+            ]
+          },
+          {
+            "count": 2,
+            "rank": 0.09,
+            "text": "invention",
+            "timestamps": [
+              {
+                "start": 200,
+                "end": 560
+              },
+              {
+                "start": 6440,
+                "end": 6840
+              }
+            ]
+          },
+          {
+            "count": 1,
+            "rank": 0.08,
+            "text": "middle of the 15th century",
+            "timestamps": [
+              {
+                "start": 2360,
+                "end": 4000
+              }
+            ]
+          },
+          {
+            "count": 1,
+            "rank": 0.07,
+            "text": "art",
+            "timestamps": [
+              {
+                "start": 7160,
+                "end": 7360
+              }
+            ]
+          },
+          {
+            "count": 1,
+            "rank": 0.07,
+            "text": "middle",
+            "timestamps": [
+              {
+                "start": 2360,
+                "end": 2640
+              }
+            ]
+          }
+        ]
+      },
+      "auto_highlights": true,
+      "audio_start_from": null,
+      "audio_end_at": null,
+      "word_boost": [],
+      "boost_param": null,
+      "prompt": null,
+      "keyterms_prompt": [],
+      "filter_profanity": false,
+      "redact_pii": false,
+      "redact_pii_audio": false,
+      "redact_pii_audio_quality": null,
+      "redact_pii_audio_options": null,
+      "redact_pii_policies": null,
+      "redact_pii_sub": null,
+      "speaker_labels": true,
+      "speaker_options": null,
+      "content_safety": false,
+      "iab_categories": true,
+      "content_safety_labels": {
+        "status": "unavailable",
+        "results": [],
+        "summary": {}
+      },
+      "iab_categories_result": {
+        "status": "success",
+        "results": [
+          {
+            "text": "The invention of movable metal letters in the middle of the 15th century may justly be considered as the invention of the art of printing.",
+            "labels": [
+              {
+                "relevance": 0.39475995,
+                "label": "FineArt>Design"
+              },
+              {
+                "relevance": 0.26224568,
+                "label": "Hobbies&Interests>ArtsAndCrafts>Needlework"
+              },
+              {
+                "relevance": 0.24412495,
+                "label": "BusinessAndFinance>Industries>TechnologyIndustry"
+              },
+              {
+                "relevance": 0.2308106,
+                "label": "BusinessAndFinance>Industries>ManufacturingIndustry"
+              },
+              {
+                "relevance": 0.12688306,
+                "label": "Hobbies&Interests>ArtsAndCrafts>DrawingAndSketching"
+              },
+              {
+                "relevance": 0.10319842,
+                "label": "Hobbies&Interests>ArtsAndCrafts"
+              },
+              {
+                "relevance": 0.10160146,
+                "label": "Technology&Computing>Computing>ComputerSoftwareAndApplications>DesktopPublishing"
+              },
+              {
+                "relevance": 0.076724544,
+                "label": "Technology&Computing"
+              },
+              {
+                "relevance": 0.03151372,
+                "label": "FineArt>DigitalArts"
+              },
+              {
+                "relevance": 0.02142723,
+                "label": "BooksAndLiterature>ArtAndPhotographyBooks"
+              }
+            ],
+            "timestamp": {
+              "start": 80,
+              "end": 8080
+            },
+            "sentences_idx_start": 0,
+            "sentences_idx_end": 0
+          }
+        ],
+        "summary": {
+          "Hobbies&Interests>ArtsAndCrafts>Needlework": 0.66431683,
+          "Hobbies&Interests>ArtsAndCrafts": 0.2614207,
+          "BusinessAndFinance>Industries>MediaIndustry": 0.04662211,
+          "Hobbies&Interests>ArtsAndCrafts>Photography": 0.04839364,
+          "Hobbies&Interests>ArtsAndCrafts>DrawingAndSketching": 0.32141826,
+          "BusinessAndFinance>Industries>PublishingIndustry": 0.015887447,
+          "Hobbies&Interests>ArtsAndCrafts>Scrapbooking": 0.021633076,
+          "Technology&Computing": 0.19435747,
+          "BusinessAndFinance>Industries>TechnologyIndustry": 0.6184137,
+          "Technology&Computing>Computing>Internet>ITAndInternetSupport": 0.012333434,
+          "Sports>TrackAndField": 0.011235573,
+          "BusinessAndFinance>Industries>MetalsIndustry": 0.036521833,
+          "Hobbies&Interests>ArtsAndCrafts>JewelryMaking": 0.017231748,
+          "Technology&Computing>Computing>ComputerSoftwareAndApplications>DesktopPublishing": 0.2573753,
+          "BooksAndLiterature>ArtAndPhotographyBooks": 0.05427914,
+          "BusinessAndFinance>Industries>ManufacturingIndustry": 0.5846859,
+          "Hobbies&Interests>Collecting>StampsAndCoins": 0.023448072,
+          "RealEstate>IndustrialProperty": 0.049537115,
+          "FineArt>Design": 1.0,
+          "FineArt>DigitalArts": 0.07983009
+        }
+      },
+      "language_detection": false,
+      "language_detection_options": null,
+      "language_detection_results": null,
+      "language_confidence_threshold": null,
+      "language_confidence": null,
+      "custom_spelling": null,
+      "throttled": false,
+      "auto_chapters": true,
+      "summarization": false,
+      "summary_type": null,
+      "summary_model": null,
+      "custom_topics": false,
+      "topics": [],
+      "speech_threshold": null,
+      "speech_model": null,
+      "speech_models": ["universal"],
+      "speech_model_used": "universal",
+      "chapters": [
+        {
+          "summary": "The invention of movable metal letters in the middle of the 15th century may justly be considered as the invention of the art of printing.",
+          "headline": "The invention of movable metal letters in the middle of the 15th century",
+          "gist": "The invention of movable metal letters",
+          "start": 80,
+          "end": 8080
+        }
+      ],
+      "disfluencies": false,
+      "entity_detection": true,
+      "sentiment_analysis": true,
+      "sentiment_analysis_results": [
+        {
+          "sentiment": "NEUTRAL",
+          "speaker": "A",
+          "text": "The invention of movable metal letters in the middle of the 15th century may justly be considered as the invention of the art of printing.",
+          "start": 80,
+          "end": 8080,
+          "confidence": 0.8261955
+        }
+      ],
+      "entities": null,
+      "speakers_expected": null,
+      "summary": null,
+      "custom_topics_results": null,
+      "is_deleted": null,
+      "multichannel": null,
+      "project_id": 1443207,
+      "token_id": 1455510
+    }
+  }
+]

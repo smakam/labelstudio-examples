@@ -1,0 +1,18 @@
+<View>
+  <Header value="QC: Bengali Transcription + English Translation + Diarization"/>
+  <Audio name="audio" value="$audio"/>
+
+  <Labels name="speaker" toName="audio" showInline="true">
+    <Label value="A" background="#1f77b4"/>
+    <Label value="B" background="#ff7f0e"/>
+    <Label value="Other" background="#7f7f7f"/>
+  </Labels>
+
+  <View visibleWhen="region-selected">
+    <Header value="Transcription &amp; Translation"/>
+    <TextArea name="bn_transcription" toName="audio" perRegion="true" rows="3"
+              placeholder="Enter or correct the Bengali transcript for this region"/>
+    <TextArea name="en_translation" toName="audio" perRegion="true" rows="3"
+              placeholder="Enter or correct the English translation for this region"/>
+  </View>
+</View>

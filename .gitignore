@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Label Studio specific
+# Keep configs and scripts, but exclude large binary files
+*.wav
+*.mp3
+*.jpg
+*.jpeg
+*.png
+
+# Keep CSV and JSON files for reference
+# Uncomment if you want to exclude results too:
+# results/
+

@@ -1,0 +1,31 @@
+<View>
+  <Header value="Transcription and Translation with Regions"/>
+  <Audio name="audio" value="$audio"/>
+
+  <!-- Optional: Labels to categorize regions (you can create regions without this too) -->
+  <Labels name="speaker" toName="audio" showInline="true">
+    <Label value="Speaker A" background="blue"/>
+    <Label value="Speaker B" background="green"/>
+    <Label value="Other" background="orange"/>
+  </Labels>
+
+  <!-- Per-region transcription - appears when you select a region -->
+  <Header value="Transcription (Bengali)"/>
+  <TextArea name="transcription" toName="audio" 
+            perRegion="true"
+            rows="3" 
+            placeholder="Bengali transcription for this segment..."/>
+
+  <!-- Per-region translation - appears when you select a region -->
+  <Header value="Translation (English)"/>
+  <TextArea name="translation" toName="audio" 
+            perRegion="true"
+            rows="3" 
+            placeholder="English translation for this segment..."/>
+
+  <!-- Optional notes per region -->
+  <TextArea name="notes" toName="audio" 
+            perRegion="true"
+            rows="2" 
+            placeholder="Notes (optional)..."/>
+</View>

@@ -1,0 +1,263 @@
+[
+  {
+    "data": {
+      "audio": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/bengali_clip_03.mp3"
+    },
+    "predictions": [
+      {
+        "model_version": "assemblyai-aws-translate-v1",
+        "score": 0.74253094,
+        "result": [
+          {
+            "id": "8c61ad51b9574f01b0b2621ee8604b56",
+            "from_name": "speaker",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.295,
+              "end": 19.575,
+              "labels": [
+                "A"
+              ],
+              "channel": 0
+            }
+          },
+          {
+            "id": "9988ae524edd4cf5b3b7d365c35b2329",
+            "from_name": "bn_transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 0.295,
+              "end": 19.575,
+              "text": [
+                "बोलों, आपकी क्या मना अच्छा? आमी, विशेष भालो नहीं। क्यानो, आपना की होईचे? आमार सरीट ता तो अतो भालो नहीं। आमी खोब दुखिता। धन्यवाद। आकन आशी, आमार काज अच्छे। अच्छे आशों, आब."
+              ],
+              "region_id": "8c61ad51b9574f01b0b2621ee8604b56"
+            }
+          },
+          {
+            "id": "7a921fbd3df4422db999e1dd688440cc",
+            "from_name": "en_translation",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 0.295,
+              "end": 19.575,
+              "text": [
+                "Tell me, what do you want? Me, I didn't look special. Why, you or not? Amar sarit ta that he did not listen. We are very hurt. Thank you. Akan Aashi, Aamar Kaj Acche. Ache Aasho, Ab."
+              ],
+              "region_id": "8c61ad51b9574f01b0b2621ee8604b56"
+            }
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "assemblyai_transcript_id": "b9f06767-ddbf-48ba-9069-052ff1c8809b",
+      "audio_duration": 21
+    }
+  },
+  {
+    "data": {
+      "audio": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/bengali_clip_06.mp3"
+    },
+    "predictions": [
+      {
+        "model_version": "assemblyai-aws-translate-v1",
+        "score": 0.7984041,
+        "result": [
+          {
+            "id": "88a56352843d4d2497592d334e34ab18",
+            "from_name": "speaker",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 0.464,
+              "end": 18.824,
+              "labels": [
+                "A"
+              ],
+              "channel": 0
+            }
+          },
+          {
+            "id": "6ffe88ca557946678da516c9212174c9",
+            "from_name": "bn_transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 0.464,
+              "end": 18.824,
+              "text": [
+                "बोलून, आपनी क्या मन आछें? आपनी क्या मन आछें? आमी भालो आछी, बोलून, आपनी क्या मन आछें? आमी बिशेश भालो नहीं."
+              ],
+              "region_id": "88a56352843d4d2497592d334e34ab18"
+            }
+          },
+          {
+            "id": "3ecb9abae57c43ea8827294dff0d8402",
+            "from_name": "en_translation",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 0.464,
+              "end": 18.824,
+              "text": [
+                "Speaking of which, what do you think? What's your mind? I said, “What do you think?” We didn't see Bisesh."
+              ],
+              "region_id": "88a56352843d4d2497592d334e34ab18"
+            }
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "assemblyai_transcript_id": "2617a843-d862-46bf-950c-f6a3870b9c1a",
+      "audio_duration": 21
+    }
+  },
+  {
+    "data": {
+      "audio": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/bengali_clip_09.mp3"
+    },
+    "predictions": [
+      {
+        "model_version": "assemblyai-aws-translate-v1",
+        "score": 0.81184226,
+        "result": [
+          {
+            "id": "cff51608ed42463ea438bbccd5cb3d4e",
+            "from_name": "speaker",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 3.147,
+              "end": 5.867,
+              "labels": [
+                "A"
+              ],
+              "channel": 0
+            }
+          },
+          {
+            "id": "c4ffa69018674991957e35338f66bf47",
+            "from_name": "bn_transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 3.147,
+              "end": 5.867,
+              "text": [
+                "अच्छा, आशुन, आबर आश्बेन."
+              ],
+              "region_id": "cff51608ed42463ea438bbccd5cb3d4e"
+            }
+          },
+          {
+            "id": "2358753d5b3e4756a5ba2a7576b55cc1",
+            "from_name": "en_translation",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 3.147,
+              "end": 5.867,
+              "text": [
+                "Acha, Ashun, Aber Ashben."
+              ],
+              "region_id": "cff51608ed42463ea438bbccd5cb3d4e"
+            }
+          },
+          {
+            "id": "f3ee4c26f12040f29c25ade77405c981",
+            "from_name": "speaker",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 5.867,
+              "end": 12.627,
+              "labels": [
+                "B"
+              ],
+              "channel": 0
+            }
+          },
+          {
+            "id": "cd725261fa9e4b13a0bf464ad2b482e0",
+            "from_name": "bn_transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 5.867,
+              "end": 12.627,
+              "text": [
+                "धन्यवाद, अखण आशी, आमार काज आछे."
+              ],
+              "region_id": "f3ee4c26f12040f29c25ade77405c981"
+            }
+          },
+          {
+            "id": "d8cf5daa0fc345879d5e46aabc3a9775",
+            "from_name": "en_translation",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 5.867,
+              "end": 12.627,
+              "text": [
+                "Thank you, Akhan Ashi, Aamar Kaj Ache."
+              ],
+              "region_id": "f3ee4c26f12040f29c25ade77405c981"
+            }
+          },
+          {
+            "id": "4a2dee76ed344545b72dfacb4c926ff4",
+            "from_name": "speaker",
+            "to_name": "audio",
+            "type": "labels",
+            "value": {
+              "start": 12.627,
+              "end": 19.367,
+              "labels": [
+                "A"
+              ],
+              "channel": 0
+            }
+          },
+          {
+            "id": "90f45fb862434c6bb36c8cec2f3e6724",
+            "from_name": "bn_transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 12.627,
+              "end": 19.367,
+              "text": [
+                "अच्छा, आशुन, आबर आश्बेन."
+              ],
+              "region_id": "4a2dee76ed344545b72dfacb4c926ff4"
+            }
+          },
+          {
+            "id": "0f2e7c9c47e348e98dd59e24f7720068",
+            "from_name": "en_translation",
+            "to_name": "audio",
+            "type": "textarea",
+            "value": {
+              "start": 12.627,
+              "end": 19.367,
+              "text": [
+                "Acha, Ashun, Aber Ashben."
+              ],
+              "region_id": "4a2dee76ed344545b72dfacb4c926ff4"
+            }
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "assemblyai_transcript_id": "7a391488-5518-4567-b89a-56d00639a0b0",
+      "audio_duration": 21
+    }
+  }
+]

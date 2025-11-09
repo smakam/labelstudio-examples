@@ -1,0 +1,643 @@
+[
+  {
+    "id": 99,
+    "annotations": [
+      {
+        "id": 5,
+        "completed_by": 1,
+        "result": [
+          {
+            "original_width": 3476,
+            "original_height": 5214,
+            "image_rotation": 0,
+            "value": {
+              "x": 23.289070480081715,
+              "y": 12.461695607763023,
+              "width": 55.158324821246154,
+              "height": 49.54034729315629,
+              "rotation": 0,
+              "rectanglelabels": ["Face"]
+            },
+            "id": "7dWM8OpdQJ",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T04:21:38.351279Z",
+        "updated_at": "2025-11-06T06:11:04.352068Z",
+        "draft_created_at": null,
+        "lead_time": 164.63400000000001,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "e951b3c1-694e-4034-8b44-82680ee2f665",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 99,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "79441f05-sample_images.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "image_url": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+    },
+    "meta": {},
+    "created_at": "2025-11-06T04:14:29.851597Z",
+    "updated_at": "2025-11-06T06:11:04.412196Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 100,
+    "annotations": [
+      {
+        "id": 16,
+        "completed_by": 1,
+        "result": [
+          {
+            "original_width": 5760,
+            "original_height": 5075,
+            "image_rotation": 0,
+            "value": {
+              "x": 26.169405815423513,
+              "y": 2.869722805203863,
+              "width": 41.972187104930455,
+              "height": 57.25096996381707,
+              "rotation": 0,
+              "rectanglelabels": ["Face"]
+            },
+            "id": "fEwtApFcVJ",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T04:32:00.864569Z",
+        "updated_at": "2025-11-06T04:32:00.864583Z",
+        "draft_created_at": "2025-11-06T04:31:58.358466Z",
+        "lead_time": 14.445,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "b463b939-b725-4197-96f9-a6bb7f029798",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 100,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "79441f05-sample_images.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "image_url": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg"
+    },
+    "meta": {},
+    "created_at": "2025-11-06T04:14:29.851640Z",
+    "updated_at": "2025-11-06T04:32:00.905320Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 101,
+    "annotations": [
+      {
+        "id": 17,
+        "completed_by": 1,
+        "result": [
+          {
+            "original_width": 6200,
+            "original_height": 3600,
+            "image_rotation": 0,
+            "value": {
+              "x": 32.89057558507274,
+              "y": 10.893246187363834,
+              "width": 34.535104364326386,
+              "height": 57.73420479302832,
+              "rotation": 0,
+              "rectanglelabels": ["Face"]
+            },
+            "id": "uEEsBn1M4e",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T04:32:18.614335Z",
+        "updated_at": "2025-11-06T04:32:18.614349Z",
+        "draft_created_at": "2025-11-06T04:32:08.921668Z",
+        "lead_time": 15.690000000000001,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "ff6702a7-5b01-4cd7-af5d-30f85a05cf5e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 101,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "79441f05-sample_images.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "image_url": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg"
+    },
+    "meta": {},
+    "created_at": "2025-11-06T04:14:29.851665Z",
+    "updated_at": "2025-11-06T04:32:18.662174Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 102,
+    "annotations": [
+      {
+        "id": 18,
+        "completed_by": 1,
+        "result": [
+          {
+            "original_width": 5760,
+            "original_height": 3840,
+            "image_rotation": 0,
+            "value": {
+              "x": 32.764073371284,
+              "y": 11.954459203036052,
+              "width": 28.842504743833018,
+              "height": 45.54079696394687,
+              "rotation": 0,
+              "rectanglelabels": ["Occluded"]
+            },
+            "id": "OmLAFhY4i5",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T04:32:29.658877Z",
+        "updated_at": "2025-11-06T04:32:29.658893Z",
+        "draft_created_at": "2025-11-06T04:32:27.744518Z",
+        "lead_time": 7.880000000000001,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "c5537f1e-60f0-4f9a-b344-5166c87df401",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 102,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "79441f05-sample_images.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "image_url": "https://images.pexels.com/photos/712521/pexels-photo-712521.jpeg"
+    },
+    "meta": {},
+    "created_at": "2025-11-06T04:14:29.851688Z",
+    "updated_at": "2025-11-06T04:32:29.712585Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 103,
+    "annotations": [
+      {
+        "id": 19,
+        "completed_by": 1,
+        "result": [
+          {
+            "original_width": 4684,
+            "original_height": 4000,
+            "image_rotation": 0,
+            "value": {
+              "x": 21.001360027833126,
+              "y": 2.3703703703703702,
+              "width": 57.05791188284783,
+              "height": 80.5925925925926,
+              "rotation": 0,
+              "rectanglelabels": ["Face"]
+            },
+            "id": "UJ49hjU3Z7",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T04:32:37.756177Z",
+        "updated_at": "2025-11-06T04:32:37.756192Z",
+        "draft_created_at": "2025-11-06T04:32:36.634725Z",
+        "lead_time": 6.562,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "7f368d12-b4d0-4064-b9f6-f52e2e4321a4",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 103,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "79441f05-sample_images.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "image_url": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg"
+    },
+    "meta": {},
+    "created_at": "2025-11-06T04:14:29.851710Z",
+    "updated_at": "2025-11-06T04:32:37.872799Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 104,
+    "annotations": [
+      {
+        "id": 15,
+        "completed_by": 1,
+        "result": [
+          {
+            "original_width": 2400,
+            "original_height": 3000,
+            "image_rotation": 0,
+            "value": {
+              "x": 15.57711950970378,
+              "y": 17.67109295199183,
+              "width": 54.64759959141982,
+              "height": 52.2982635342186,
+              "rotation": 0,
+              "rectanglelabels": ["Face"]
+            },
+            "id": "Hlog-qnMYh",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T04:31:43.354215Z",
+        "updated_at": "2025-11-06T04:31:43.354229Z",
+        "draft_created_at": "2025-11-06T04:31:36.394118Z",
+        "lead_time": 19.559,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "ff9470b7-ffba-4f0e-bb29-54a6b463b496",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 104,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "79441f05-sample_images.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "image_url": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg"
+    },
+    "meta": {},
+    "created_at": "2025-11-06T04:14:29.851732Z",
+    "updated_at": "2025-11-06T04:31:43.385067Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 105,
+    "annotations": [
+      {
+        "id": 11,
+        "completed_by": 1,
+        "result": [
+          {
+            "original_width": 3008,
+            "original_height": 2008,
+            "image_rotation": 0,
+            "value": {
+              "x": 38.275193798449614,
+              "y": 10.596374193149881,
+              "width": 20.833333333333336,
+              "height": 28.59569474041817,
+              "rotation": 0,
+              "rectanglelabels": ["Occluded"]
+            },
+            "id": "pi3e-vJ1hY",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T04:22:12.703656Z",
+        "updated_at": "2025-11-06T04:31:19.793075Z",
+        "draft_created_at": null,
+        "lead_time": 17.734,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "d048b51d-7e94-45cf-b048-c14af900168d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 105,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "79441f05-sample_images.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "image_url": "https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg"
+    },
+    "meta": {},
+    "created_at": "2025-11-06T04:14:29.851755Z",
+    "updated_at": "2025-11-06T04:31:19.915256Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 106,
+    "annotations": [
+      {
+        "id": 12,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T04:22:17.384944Z",
+        "updated_at": "2025-11-06T04:22:17.384954Z",
+        "draft_created_at": null,
+        "lead_time": 4.477,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "49df71fd-b6c0-4e97-a9ee-b1d0bbb6fc26",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 106,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "79441f05-sample_images.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "image_url": "https://images.pexels.com/photos/386148/pexels-photo-386148.jpeg"
+    },
+    "meta": {},
+    "created_at": "2025-11-06T04:14:29.851777Z",
+    "updated_at": "2025-11-06T04:22:17.399373Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 107,
+    "annotations": [
+      {
+        "id": 13,
+        "completed_by": 1,
+        "result": [
+          {
+            "original_width": 6200,
+            "original_height": 3600,
+            "image_rotation": 0,
+            "value": {
+              "x": 31.69799127578222,
+              "y": 14.190317195325541,
+              "width": 35.090742635575424,
+              "height": 56.42737896494156,
+              "rotation": 0,
+              "rectanglelabels": ["Face"]
+            },
+            "id": "f8088kMZzq",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T04:29:55.891982Z",
+        "updated_at": "2025-11-06T04:29:55.891997Z",
+        "draft_created_at": "2025-11-06T04:26:14.002084Z",
+        "lead_time": 167.695,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "3ab89eb5-5154-410a-b13b-b13e62cfdfab",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 107,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "79441f05-sample_images.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "image_url": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg"
+    },
+    "meta": {},
+    "created_at": "2025-11-06T04:14:29.851799Z",
+    "updated_at": "2025-11-06T04:29:55.934024Z",
+    "inner_id": 9,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 108,
+    "annotations": [
+      {
+        "id": 14,
+        "completed_by": 1,
+        "result": [
+          {
+            "original_width": 3355,
+            "original_height": 5033,
+            "image_rotation": 0,
+            "value": {
+              "x": 13.024787299306295,
+              "y": 4.085801838610827,
+              "width": 65.73686766355766,
+              "height": 46.88457609805925,
+              "rotation": 0,
+              "rectanglelabels": ["Face"]
+            },
+            "id": "i4CVuo4qMM",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-06T04:30:13.645369Z",
+        "updated_at": "2025-11-06T04:30:13.645390Z",
+        "draft_created_at": null,
+        "lead_time": 17.385,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "a3296959-8bf7-4b5c-b453-6ed45c96a462",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 108,
+        "project": 2,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "79441f05-sample_images.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "image_url": "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg"
+    },
+    "meta": {},
+    "created_at": "2025-11-06T04:14:29.851822Z",
+    "updated_at": "2025-11-06T04:30:13.693497Z",
+    "inner_id": 10,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 2,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

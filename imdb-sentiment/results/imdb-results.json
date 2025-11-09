@@ -1,0 +1,241 @@
+[
+  {
+    "id": 1,
+    "annotations": [
+      {
+        "id": 1,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": { "choices": ["Negative"] },
+            "id": "zj7PPM5nfv",
+            "from_name": "sentiment",
+            "to_name": "text",
+            "type": "choices",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T12:27:35.462916Z",
+        "updated_at": "2025-11-05T12:28:09.633891Z",
+        "draft_created_at": null,
+        "lead_time": 23.009999999999998,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "dc113fa0-2fc1-421a-8589-27c582d00e81",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "397f7e66-IMDB_train_unlabeled_100.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "uid": 25000,
+      "id": 27297,
+      "stars": 0,
+      "review": "This movie is so bad, you can't help but laugh. The dialogue is horrible, the acting is horrible, the effects are horrible. It is not scary, but it is a helleva good laugh.",
+      "type": "Train",
+      "filename": "./train/unsup/27297_0.txt",
+      "url": "http://www.imdb.com/title/tt0093855/usercomments"
+    },
+    "meta": {},
+    "created_at": "2025-11-05T10:25:38.259282Z",
+    "updated_at": "2025-11-05T12:28:09.707129Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2,
+    "annotations": [
+      {
+        "id": 2,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": { "choices": ["Positive"] },
+            "id": "9uA3Tn-0RW",
+            "from_name": "sentiment",
+            "to_name": "text",
+            "type": "choices",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T12:29:10.074866Z",
+        "updated_at": "2025-11-05T12:29:10.074878Z",
+        "draft_created_at": null,
+        "lead_time": 28.211,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "f0c7a444-1462-46f7-83e9-433859645b30",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "397f7e66-IMDB_train_unlabeled_100.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "uid": 25001,
+      "id": 42807,
+      "stars": 0,
+      "review": "One is a good first effort by a novice director. Good acting, excellent special effects and cameos by Cleveland news celebrities make this a relatively painless way to spend a couple hours. The weak points were the script and editing which made the story confusing in some parts and overly simplistic in others. Tomeric shows that he has the technical skill to make a reasonable science fiction movie- it will be interesting to see what he can do with a decent script in a more challenging genre like comedy or drama.",
+      "type": "Train",
+      "filename": "./train/unsup/42807_0.txt",
+      "url": "http://www.imdb.com/title/tt0227189/usercomments"
+    },
+    "meta": {},
+    "created_at": "2025-11-05T10:25:38.259325Z",
+    "updated_at": "2025-11-05T12:29:10.114985Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 3,
+    "annotations": [
+      {
+        "id": 3,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": true,
+        "ground_truth": false,
+        "created_at": "2025-11-05T12:29:11.194661Z",
+        "updated_at": "2025-11-05T12:29:11.194673Z",
+        "draft_created_at": null,
+        "lead_time": 0.881,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "06573696-1fca-4886-a2bc-48ecdd08c38d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 3,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "397f7e66-IMDB_train_unlabeled_100.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "uid": 25002,
+      "id": 4422,
+      "stars": 0,
+      "review": "Maybe I should have seen this when I was a kid. Perhaps viewing it for the first time in the 21st century just doesn't provide the necessary atmosphere to appreciate what this film is about. But for whatever reason, this movie didn't grab my attention at all. It was full of long, and as far as I can tell, pointless shots of people walking, riding bikes, driving cars, or just plain standing around. They were accompanied by spooky noises or music, but they still dragged on for way too long. Maybe that was the late 70's way of building tension, but by the time 20 minutes had gone by, I was so disenfranchised that there was no way I could be apprehensive. And this while watching it in the dead of night alone with the lights off.<br /><br />I love horror movies, and especially hokey ones like Evil Dead. My wife and friends start groaning whenever I go off on some movie that everyone else thinks is stupid. But this one...it just didn't work for me.",
+      "type": "Train",
+      "filename": "./train/unsup/4422_0.txt",
+      "url": "http://www.imdb.com/title/tt0079714/usercomments"
+    },
+    "meta": {},
+    "created_at": "2025-11-05T10:25:38.259349Z",
+    "updated_at": "2025-11-05T12:29:11.225504Z",
+    "inner_id": 3,
+    "total_annotations": 0,
+    "cancelled_annotations": 1,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 4,
+    "annotations": [
+      {
+        "id": 4,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": { "choices": ["Positive"] },
+            "id": "1Lt-Y1khsz",
+            "from_name": "sentiment",
+            "to_name": "text",
+            "type": "choices",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-05T12:29:17.811718Z",
+        "updated_at": "2025-11-05T12:29:17.811730Z",
+        "draft_created_at": null,
+        "lead_time": 6.375,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "073a65d5-5102-435e-9c66-cfc952a8950c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 4,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "397f7e66-IMDB_train_unlabeled_100.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "uid": 25003,
+      "id": 12374,
+      "stars": 0,
+      "review": "This film is one of the great ones. Having served on an aircraft carrier for 2.5 years, I'm familiar with aircraft carrier excitement. But the movie was more than just wonderful shots of the U.S. Nimitz. The cast was top drawer, and their acting was as good as it gets. Standing above all the great performances was a Japanese actor portraying a shot-down, highly competent, captured Japanese Zero pilot. While racism understandably raises its ugly head during wartime, with epithets and insults hurled in both directions, in fact this Japanese actor portrayed a Japanese warrior at his finest--someone whom Japanese viewers would be proud of. Played equally well were American military personnel, including some Marines. One of the candid themes of the movie is the tragedy of such fine people going to war against each other, whatever their race.<br /><br />The film is undeniably top drawer, far more mature than than \"Top Gun,\" with even better flying scenes. So I've often wondered why it isn't widely known and not kept in stock in widescreen format. Perhaps the answer is today's wimpy trend towards \"politically correct\" dialog. In one scene, Kirk Douglas refers to the captured Japanese pilot as a \"yellow bastard.\" In the video version, this was sanitized. However, sanitized or not, the original racial comment, by itself, may have doomed the film from greater video distribution.<br /><br />I saw the film when it came out in wide-screen format and saw it several times before it left town. Thereafter, the only other versions available in video were \"fit-to-TV-screen\" size. That was tragic! Though still exciting in \"box\" format, the widescreen original was breathtaking. I cannot imagine why producers haven't released this in DVD in original wide-screen format. It makes a huge difference with this film! (Aircraft carriers are huge!)<br /><br />One interesting comment to add about the F-14 flying scenes. I was awed by one particular F-14 maneuver, which I didn't think airplanes were capable of doing. A couple of years later, I talked with a Navy fighter pilot and brought this up. He was very familiar with that scene and personally knew the pilot who flew the F-14 in the movie. He told me that the F-14 almost crashed in that scene, stalling while trying to fly too slow, diving for the ocean to pick up speed, and barely recovering just above the wave tops. This near-accident was caught on film and added immensely to the exhibition of flying skill. An exception had been granted to the Navy's policy of not allowing \"dissimilar aircraft\" to fly together in movie scenes. The result of that granted exception was almost the loss of an F-14.<br /><br />This is an incredibly good drama. I found that the various twists and turns, and particularly the call-it-off ending, all contributed to the drama and moral dilemmas. This is a fine, great movie. Like others who commented here, it seems tragic that this film is not available in widescreen DVD format. Everyone I've shown it to loves it, male and female. Feminism and romance are included, along with a collie dog for the kids.",
+      "type": "Train",
+      "filename": "./train/unsup/12374_0.txt",
+      "url": "http://www.imdb.com/title/tt0080736/usercomments"
+    },
+    "meta": {},
+    "created_at": "2025-11-05T10:25:38.259375Z",
+    "updated_at": "2025-11-05T12:29:17.879474Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

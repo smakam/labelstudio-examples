@@ -1,0 +1,26 @@
+<View>
+  <Header value="QC: Segment + Diarize + Sentiment"/>
+  <Audio name="audio" value="$audio"/>
+
+  <!-- Create time regions on the waveform and assign a speaker -->
+  <Labels name="speaker" toName="audio" showInline="true">
+    <Label value="A"/>
+    <Label value="B"/>
+    <Label value="Other"/>
+  </Labels>
+
+  <!-- Per-region transcript so each segment has its own text -->
+  <TextArea name="transcription" toName="audio" perRegion="true" rows="3"
+            placeholder="Transcript for this segment…"/>
+
+  <!-- Per-region sentiment for each segment -->
+  <Choices name="sentiment" toName="audio" perRegion="true" choice="single" showInline="true">
+    <Choice value="POSITIVE"/>
+    <Choice value="NEUTRAL"/>
+    <Choice value="NEGATIVE"/>
+  </Choices>
+
+  <!-- Optional reviewer notes per segment -->
+  <TextArea name="notes" toName="audio" perRegion="true" rows="2"
+            placeholder="Reviewer notes (optional)"/>
+</View>

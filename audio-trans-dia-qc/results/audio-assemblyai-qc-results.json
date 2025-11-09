@@ -1,0 +1,164 @@
+[
+  {
+    "id": 123,
+    "annotations": [
+      {
+        "id": 24,
+        "completed_by": 1,
+        "result": [
+          {
+            "original_length": 1.899546,
+            "value": {
+              "start": 0.08,
+              "end": 1.84,
+              "channel": 0,
+              "labels": [
+                "A"
+              ]
+            },
+            "id": "e975b38e40a64e2a9027ad1e5dced227",
+            "from_name": "speaker",
+            "to_name": "audio",
+            "type": "labels",
+            "origin": "prediction-changed",
+            "score": 0.9628906
+          },
+          {
+            "original_length": 1.899546,
+            "value": {
+              "start": 0.08,
+              "end": 1.84,
+              "channel": 0,
+              "text": [
+                "In being comparatively modern."
+              ]
+            },
+            "id": "cDImenBTtk",
+            "from_name": "transcription",
+            "to_name": "audio",
+            "type": "textarea",
+            "origin": "prediction",
+            "score": 0.9628906
+          },
+          {
+            "original_length": 1.899546,
+            "value": {
+              "start": 0.08,
+              "end": 1.84,
+              "channel": 0,
+              "choices": [
+                "POSITIVE"
+              ]
+            },
+            "id": "_wrTBYABqt",
+            "from_name": "sentiment",
+            "to_name": "audio",
+            "type": "choices",
+            "origin": "prediction-changed",
+            "score": 0.8085606
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-11-07T05:28:12.233149Z",
+        "updated_at": "2025-11-07T05:28:12.233165Z",
+        "draft_created_at": "2025-11-07T05:26:47.878281Z",
+        "lead_time": 45.396,
+        "prediction": {
+          "id": 25,
+          "result": [
+            {
+              "id": "e975b38e40a64e2a9027ad1e5dced227",
+              "from_name": "speaker",
+              "to_name": "audio",
+              "type": "labels",
+              "value": {
+                "start": 0.08,
+                "end": 1.84,
+                "labels": [
+                  "A"
+                ],
+                "channel": 0
+              },
+              "score": 0.9628906
+            },
+            {
+              "from_name": "transcription",
+              "to_name": "audio",
+              "type": "textarea",
+              "value": {
+                "text": [
+                  "In being comparatively modern."
+                ],
+                "start": 0.08,
+                "end": 1.84,
+                "channel": 0,
+                "region_id": "e975b38e40a64e2a9027ad1e5dced227"
+              },
+              "score": 0.9628906
+            },
+            {
+              "from_name": "sentiment",
+              "to_name": "audio",
+              "type": "choices",
+              "value": {
+                "choices": [
+                  "NEUTRAL"
+                ],
+                "start": 0.08,
+                "end": 1.84,
+                "channel": 0,
+                "region_id": "e975b38e40a64e2a9027ad1e5dced227"
+              },
+              "score": 0.8085606
+            }
+          ],
+          "model_version": "assemblyai-v2",
+          "created_ago": "6\u00a0minutes",
+          "score": 0.9628906,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2025-11-07T05:21:31.332800Z",
+          "updated_at": "2025-11-07T05:21:31.332804Z",
+          "model": null,
+          "model_run": null,
+          "task": 123,
+          "project": 5
+        },
+        "result_count": 3,
+        "unique_id": "10157596-cbe2-435d-b773-3f44f143c522",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 123,
+        "project": 5,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "7d3f4d42-audio_tasks.json",
+    "drafts": [],
+    "predictions": [
+      25
+    ],
+    "data": {
+      "audio": "https://audio-samples-lstudio.s3.us-east-1.amazonaws.com/LJ001-0002.wav"
+    },
+    "meta": {},
+    "created_at": "2025-11-07T05:21:31.328751Z",
+    "updated_at": "2025-11-07T05:28:12.263907Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 1,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 5,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

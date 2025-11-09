@@ -1,0 +1,18 @@
+<View>
+  <Image name="image" value="$image"/>
+  <RectangleLabels name="bbox" toName="image">
+    <Label value="face"/>
+    <Label value="occluded"/>
+   <Label value="Person"/>
+  <Label value="Male"/>
+  <Label value="Female"/>
+  <Label value="Man"/>
+  <Label value="Woman"/>
+  <Label value="Adult"/>
+  <Label value="Coat"/>
+  <Label value="Shoe"/>
+  <Label value="Glasses"/>
+  <Label value="Necklace"/>
+  <Label value="Wristwatch"/>
+  </RectangleLabels>
+</View>
