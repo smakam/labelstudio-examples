@@ -32,3 +32,8 @@ Thumbs.db
 # Uncomment if you want to exclude results too:
 # results/
 
+# ML backend job results (numbered directories)
+**/assemblyai_bengali/[0-9]*/
+**/assemblyai_bengali/*/event.json
+**/assemblyai_bengali/*/job_result.json
+
